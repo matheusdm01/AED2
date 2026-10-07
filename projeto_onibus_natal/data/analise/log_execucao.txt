@@ -1,0 +1,391 @@
+
+==============================================================================
+[1] coleta: extrai as tabelas dos PDFs
+==============================================================================
+                                               n  seq_min  seq_max
+linha titulo_linha                                                
+738   MARIA LACERDA – VIA ALECRIM             87        2       88
+740   MARIA LACERDA – VIA PRAÇA               84        2       85
+745.1 CIRCULAR PONTA NEGRA VIA MARIA LACERDA  49        2       51
+745.2 CIRCULAR PONTA NEGRA VIA ABEL CABRAL    54        2       55
+97    ABEL CABRAL – VIA PRAÇA                 84        2       85
+98    ABEL CABRAL – VIA ALECRIM               90        2       91
+
+==============================================================================
+[2] limpeza e construção da rede v1
+==============================================================================
+registros brutos: 448 | paradas únicas (nós): 202 | arestas: 227
+nomes brutos distintos: 206 -> nomes limpos distintos: 186
+nomes com >1 nó (ver data/auditoria_nomes.csv): 13
+
+==============================================================================
+[3] figura de conferência da rede v1
+==============================================================================
+{'nos': 202, 'arestas': 227, 'densidade': 0.0056, 'WCC': 1, 'SCC': 79, 'diametro_nao_dirigido_GCC': 51, 'grau_medio_total': 2.25}
+0.373  P028  ESTACAO VIA DIRETA           Lagoa Nova         linhas=738,740,745.1,745.2,97,98
+0.313  P067  ESTACAO CARREFOUR            Lagoa Nova         linhas=738,740,745.1,745.2,97,98
+0.287  P020  KERO KERO                    Nova Parnamirim    linhas=738,740,745.1,97,98
+0.286  P021  ACAI                         Pitimbu            linhas=738,740,745.1,97,98
+0.285  P022  ATACADAO                     Pitimbu            linhas=738,740,745.1,97,98
+0.284  P023  MOTEL VISION                 Candelária         linhas=738,740,745.1,97,98
+0.283  P024  SAMS CLUB                    Neópolis           linhas=738,740,745.1,97,98
+0.282  P025  PASSARELA DE NEOPOLIS        Neópolis           linhas=738,740,745.1,97,98
+
+==============================================================================
+[4] parte 1: descrição da rede
+==============================================================================
+== grau (dirigido) ==
+      grau_entrada  grau_saida  grau_total  forca_total
+mean          1.12        1.12        2.25         4.38
+50%           1.00        1.00        2.00         4.00
+max           3.00        3.00        5.00        12.00
+distribuição grau de entrada : {0: 2, 1: 175, 2: 23, 3: 2}
+distribuição grau de saída   : {0: 1, 1: 176, 2: 24, 3: 1}
+distribuição grau total      : {1: 2, 2: 162, 3: 26, 4: 10, 5: 2}
+fontes (entrada 0): ['TERMINAL DE NOVA PARNAMIRIM', 'TERMINAL'] | sumidouros (saída 0): ['IGREJA GUERREIROS DA ORACAO']
+nós com grau total > 2 ('encruzilhadas'): 38
+                               nome  grau_entrada  grau_saida  grau_total  n_linhas
+parada_id                                                                          
+P161                  GRUPO CONRADO             3           2           5         3
+P067              ESTACAO CARREFOUR             3           2           5         6
+P028             ESTACAO VIA DIRETA             2           2           4         6
+P073                       ATACADAO             1           3           4         5
+P003            CONDOMINIO ITATIAIA             2           2           4         5
+P084                 HAMBURGO STYLE             2           2           4         3
+P166           CONDOMINIO ARCO IRIS             2           2           4         2
+P167       IGREJA EVANGELICA CRISTA             2           2           4         3
+P165                       OVERDOSE             2           2           4         3
+P036                            MID             2           2           4         4
+P160                ESPACO REDUZIDO             2           2           4         3
+P074                          DIVEP             2           2           4         4
+
+== densidade == 0.00559 | reciprocidade: 0.0
+grau médio de entrada = grau médio de saída = 1.124
+
+== matriz de adjacência (202, 202): 227 entradas não nulas = 0.5563% (esparsa); soma das linhas = grau de saída ✓
+tr(A)= 0 (sem laços) | pesos: {np.int64(1): 90, np.int64(2): 96, np.int64(3): 18, np.int64(4): 9, np.int64(5): 14}
+
+== sub-redes por linha ==
+linha  nos  arestas  densidade  nos_compartilhados_com_outras  pct_compartilhado
+  738   87       86     0.0115                             87              100.0
+  740   84       83     0.0119                             83               98.8
+745.1   49       48     0.0204                             29               59.2
+745.2   54       53     0.0185                             22               40.7
+   97   84       83     0.0119                             79               94.0
+   98   90       89     0.0111                             85               94.4
+
+==============================================================================
+[5] parte 2: conectividade e distâncias
+==============================================================================
+== componentes ==
+WCC: 1 | tamanho da GCC (fraca): 202
+SCC: 79 | tamanhos (tamanho: quantidade): {124: 1, 1: 78}
+maior SCC: 124 nós -> ['PREDIO VELHO', 'MARTELINHO DE OURO', 'PN322', 'PN313', 'ANTES DA ROTATORIA CIDADE VERDE', 'DOM GURMET']
+SCC de tamanho 1: 78 (38.6% dos nós)
+condensação: 79 nós, 85 arestas; é DAG: True
+
+== alcançabilidade ==
+pares ordenados com caminho dirigido: 26896 de 40602 = 66.24%
+distância (nº de arestas) entre pares alcançáveis: média 25.33 | mediana 25.0 | máx (diâmetro dirigido) 64
+eficiência global (dirigida): 0.0448
+
+== visão não dirigida (GCC = rede toda, WCC = 1) ==
+distância média: 18.6 | diâmetro: 51 | eficiência global: 0.0914
+par mais distante (não dirigido): TERMINAL DE NOVA PARNAMIRIM <-> TERMINAL = 51 arestas
+
+== triângulos / clustering (não dirigido) ==
+triângulos: 7 | transitividade: 0.0656 | clustering médio: 0.0431
+
+== articulações / pontes (não dirigido) ==
+pontos de articulação: 47 (23% dos nós) | pontes: 46 (20% das arestas)
+
+==============================================================================
+[6] parte 3: centralidades
+==============================================================================
+
+-- top 10 por grau_total
+                           nome                 bairro  n_linhas  grau_total
+parada_id                                                                   
+P067          ESTACAO CARREFOUR             Lagoa Nova         6           5
+P161              GRUPO CONRADO      Parque do Pitimbu         3           5
+P028         ESTACAO VIA DIRETA             Lagoa Nova         6           4
+P074                      DIVEP        Nova Parnamirim         4           4
+P036                        MID             Lagoa Nova         4           4
+P073                   ATACADAO                Pitimbu         5           4
+P160            ESPACO REDUZIDO        Nova Parnamirim         3           4
+P166       CONDOMINIO ARCO IRIS      Parque do Pitimbu         2           4
+P084             HAMBURGO STYLE  Parque dos Eucaliptos         3           4
+P003        CONDOMINIO ITATIAIA  Parque dos Eucaliptos         5           4
+
+-- top 10 por closeness_dir
+                              nome             bairro  n_linhas  closeness_dir
+parada_id                                                                     
+P067             ESTACAO CARREFOUR         Lagoa Nova         6          0.056
+P020                     KERO KERO    Nova Parnamirim         5          0.053
+P114                 CIDADE JARDIM        Capim Macio         1          0.053
+P068                ANTIGA SALINAS         Candelária         5          0.053
+P161                 GRUPO CONRADO  Parque do Pitimbu         3          0.052
+P021                          ACAI            Pitimbu         5          0.051
+P115                     SANTANDER        Capim Macio         1          0.051
+P187               ESPACO REDUZIDO    Nova Parnamirim         2          0.050
+P069       POSTO BR NOVO HORIZONTE         Candelária         5          0.050
+P087                     KERO KERO         Candelaria         4          0.050
+
+-- top 10 por betweenness_dir
+                            nome           bairro  n_linhas  betweenness_dir
+parada_id                                                                   
+P028          ESTACAO VIA DIRETA       Lagoa Nova         6            0.373
+P067           ESTACAO CARREFOUR       Lagoa Nova         6            0.313
+P020                   KERO KERO  Nova Parnamirim         5            0.287
+P021                        ACAI          Pitimbu         5            0.286
+P022                    ATACADAO          Pitimbu         5            0.285
+P023                MOTEL VISION       Candelária         5            0.284
+P024                   SAMS CLUB         Neópolis         5            0.283
+P025       PASSARELA DE NEOPOLIS         Neópolis         5            0.282
+P026                     HYUNDAI       Candelária         5            0.281
+P027                    PG PRIME      Capim Macio         5            0.280
+
+-- top 10 por eigenvector_nao_dir
+                              nome           bairro  n_linhas  eigenvector_nao_dir
+parada_id                                                                         
+P024                     SAMS CLUB         Neópolis         5                0.411
+P025         PASSARELA DE NEOPOLIS         Neópolis         5                0.407
+P023                  MOTEL VISION       Candelária         5                0.385
+P026                       HYUNDAI       Candelária         5                0.372
+P022                      ATACADAO          Pitimbu         5                0.330
+P027                      PG PRIME      Capim Macio         5                0.310
+P021                          ACAI          Pitimbu         5                0.251
+P028            ESTACAO VIA DIRETA       Lagoa Nova         6                0.224
+P020                     KERO KERO  Nova Parnamirim         5                0.153
+P029       PASSARELA DE POTILANDIA       Lagoa Nova         4                0.119
+
+== correlação de Spearman entre medidas ==
+                     grau_total  forca_total  closeness_dir  betweenness_dir  betweenness_nao_dir  eigenvector_nao_dir
+grau_total                 1.00         0.44           0.24             0.21                 0.25                 0.28
+forca_total                0.44         1.00           0.36             0.54                 0.28                 0.59
+closeness_dir              0.24         0.36           1.00             0.55                 0.29                 0.59
+betweenness_dir            0.21         0.54           0.55             1.00                 0.67                 0.57
+betweenness_nao_dir        0.25         0.28           0.29             0.67                 1.00                 0.49
+eigenvector_nao_dir        0.28         0.59           0.59             0.57                 0.49                 1.00
+
+== sobreposição entre os 20 primeiros de cada medida ==
+grau_total {'closeness_dir': 5, 'betweenness_dir': 5, 'eigenvector_nao_dir': 3}
+closeness_dir {'grau_total': 5, 'betweenness_dir': 9, 'eigenvector_nao_dir': 8}
+betweenness_dir {'grau_total': 5, 'closeness_dir': 9, 'eigenvector_nao_dir': 17}
+eigenvector_nao_dir {'grau_total': 3, 'closeness_dir': 8, 'betweenness_dir': 17}
+
+nós com grau >= 4: 12; mediana do betweenness deles = 0.166 vs mediana geral 0.050
+top 10% por betweenness (20 nós): grau total mediano = 2.0 | nº de linhas mediano = 5.0
+pontes com grau 2 (só passagem, sem entroncamento): 15 de 21
+
+-- top 10 trechos por betweenness
+                   de                    para  peso_linhas  betweenness_trecho
+            KERO KERO                    ACAI            5               0.288
+                 ACAI                ATACADAO            5               0.287
+             ATACADAO            MOTEL VISION            5               0.286
+         MOTEL VISION               SAMS CLUB            5               0.285
+            SAMS CLUB   PASSARELA DE NEOPOLIS            5               0.284
+PASSARELA DE NEOPOLIS                 HYUNDAI            5               0.283
+              HYUNDAI                PG PRIME            5               0.282
+             PG PRIME      ESTACAO VIA DIRETA            5               0.281
+    ESTACAO CARREFOUR          ANTIGA SALINAS            5               0.224
+       ANTIGA SALINAS POSTO BR NOVO HORIZONTE            5               0.223
+correlação (Spearman) betweenness do trecho x peso (nº de linhas): 0.46
+
+correlação betweenness (sem peso) x (peso=1/nº linhas): 0.99
+top 5 ponderada: ['ESTACAO VIA DIRETA', 'ESTACAO CARREFOUR', 'KERO KERO', 'ACAI', 'ATACADAO']
+
+==============================================================================
+[7] parte 4: remoção de paradas, trechos e grupos
+==============================================================================
+== 4.1 remoção de uma parada ==
+                            nome  n_linhas   dano  perda_eficiencia  n_wcc  gcc_frac
+parada_id                                                                           
+P028          ESTACAO VIA DIRETA         6  0.564             0.318      2     0.871
+P067           ESTACAO CARREFOUR         6  0.474             0.289      2     0.900
+P020                   KERO KERO         5  0.434             0.240      1     1.000
+P021                        ACAI         5  0.433             0.235      1     1.000
+P022                    ATACADAO         5  0.431             0.232      1     1.000
+P023                MOTEL VISION         5  0.430             0.229      1     1.000
+P024                   SAMS CLUB         5  0.429             0.228      1     1.000
+P025       PASSARELA DE NEOPOLIS         5  0.427             0.227      1     1.000
+P026                     HYUNDAI         5  0.426             0.227      1     1.000
+P027                    PG PRIME         5  0.424             0.227      1     1.000
+P160             ESPACO REDUZIDO         3  0.357             0.212      1     1.000
+P068              ANTIGA SALINAS         5  0.335             0.194      1     1.000
+dano mediano: 0.056 | máximo: 0.564 | nós com dano > 0: 190 de 202 | com n_wcc > 1: 47
+Spearman dano x betweenness_dir: 0.75
+Spearman dano x grau_total: 0.17
+Spearman dano x n_linhas: 0.41
+dano médio por nº de linhas que passam pela parada: {1: 0.053, 2: 0.051, 3: 0.079, 4: 0.246, 5: 0.34, 6: 0.519}
+
+== 4.2 remoção de um trecho ==
+                   de                    para  peso_linhas  dano  perda_eficiencia
+            KERO KERO                    ACAI            5 0.434             0.241
+                 ACAI                ATACADAO            5 0.433             0.237
+             ATACADAO            MOTEL VISION            5 0.432             0.234
+         MOTEL VISION               SAMS CLUB            5 0.430             0.232
+            SAMS CLUB   PASSARELA DE NEOPOLIS            5 0.429             0.231
+PASSARELA DE NEOPOLIS                 HYUNDAI            5 0.427             0.230
+              HYUNDAI                PG PRIME            5 0.426             0.230
+             PG PRIME      ESTACAO VIA DIRETA            5 0.424             0.231
+    ESTACAO CARREFOUR          ANTIGA SALINAS            5 0.338             0.199
+       ANTIGA SALINAS POSTO BR NOVO HORIZONTE            5 0.336             0.196
+dano médio por peso do trecho (nº de linhas): {1: 0.044, 2: 0.052, 3: 0.057, 4: 0.289, 5: 0.389}
+Spearman dano x peso: 0.38
+
+== 4.3 remoção de grupos (nulos com N = 500 ) ==
+                             grupo  k_paradas  dano  perda_eficiencia  n_wcc  gcc_frac  dano_janela_media  pct_vs_janelas  dano_aleatorio_medio  pct_vs_aleatorio
+         via: av sen salgado filho         24 0.812             0.475      7     0.438              0.576            92.8                 0.871              11.0
+                bairro: lagoa nova         21 0.759             0.420      7     0.508              0.525            94.6                 0.846               7.2
+         tronco completo (peso>=5)         16 0.749             0.418      5     0.419              0.435            96.4                 0.770              33.4
+                bairro: candelaria          9 0.666             0.394      3     0.570              0.270            96.2                 0.584              69.2
+               bairro: capim macio         17 0.582             0.317      5     0.838              0.463            74.0                 0.794               2.2
+   tronco (peso>=5), parte 1 [ida]          9 0.568             0.305      2     0.865              0.301            92.8                 0.598              38.0
+               via: av abel cabral         24 0.508             0.305      2     0.955              0.558            25.0                 0.870               0.0
+           bairro: nova parnamirim         56 0.500             0.281      8     0.897              0.768             0.0                 0.961               0.0
+ tronco (peso>=5), parte 2 [volta]          7 0.462             0.269      2     0.897              0.242            83.4                 0.509              37.4
+               bairro: cidade alta          8 0.234             0.106      2     0.995              0.275            51.4                 0.561               1.4
+                bairro: petropolis          8 0.115             0.052      1     1.000              0.261            40.8                 0.560               0.0
+        via: av eng roberto freire         18 0.112             0.053      3     0.908              0.479             7.2                 0.807               0.0
+                     bairro: tirol         15 0.107             0.054      2     0.979              0.424            14.2                 0.765               0.0
+     bairro: parque dos eucaliptos         14 0.101             0.066      3     0.957              0.390            17.6                 0.737               0.0
+     via: av gastao mariz de faria          8 0.083             0.062      2     0.995              0.272            36.2                 0.546               0.0
+         via: av hermes da fonseca         14 0.082             0.037      1     1.000              0.399            14.4                 0.736               0.0
+                   bairro: alecrim         10 0.050             0.033      1     1.000              0.303            20.6                 0.632               0.0
+       via: av presidente bandeira         10 0.050             0.035      1     1.000              0.305            18.8                 0.628               0.0
+via: rua adail pamplona de menezes         11 0.046             0.034      1     1.000              0.340            17.2                 0.663               0.0
+          via: av praia de pirangi         11 0.035             0.017      3     0.974              0.334            14.4                 0.667               0.0
+  via: av maria lacerda montenegro         20 0.025             0.015      2     0.995              0.510             2.6                 0.834               0.0
+               bairro: ponta negra         20 0.014             0.006      3     0.989              0.493             3.2                 0.832               0.0
+
+== 4.4 alcançabilidade restante após remover k paradas (k = 0, 5, 10, 20) ==
+betweenness (estático)       [1.0, 0.216, 0.215, 0.121]
+betweenness (adaptativo)     [1.0, 0.119, 0.052, 0.024]
+grau (estático)              [1.0, 0.193, 0.094, 0.042]
+aleatório (média de 100)     [1.0, 0.594, 0.345, 0.138]
+primeiros 10 do ataque adaptativo: ['ESTACAO VIA DIRETA', 'ESTACAO CARREFOUR', 'IGREJA EVANGELICA CRISTA', 'CIA', 'GRUPO CONRADO', 'DIVEP', 'KERO KERO', 'MID', 'MC DONALDS', 'EM FRENTE DUNNAS SHOPPING']
+
+==============================================================================
+[8] parte 5: núcleos (k-core, onion, k-truss)
+==============================================================================
+== k-core (não dirigido) ==
+degeneracy (maior k com núcleo não vazio): 2
+tamanho do k-core: {0: 202, 1: 202, 2: 156}
+tamanho da k-shell: {1: 46, 2: 156}
+camadas onion: de 1 a 30
+
+-- núcleo máximo (k = 2) tem 156 nós; as 10 camadas onion mais profundas ficam em:
+                           nome             bairro  n_linhas  onion_layer
+parada_id                                                                
+P160            ESPACO REDUZIDO    Nova Parnamirim         3           30
+P073                   ATACADAO            Pitimbu         5           29
+P074                      DIVEP    Nova Parnamirim         4           29
+P161              GRUPO CONRADO  Parque do Pitimbu         3           29
+P187            ESPACO REDUZIDO    Nova Parnamirim         2           29
+P019             ESPACO SALUTTE    Nova Parnamirim         3           29
+P166       CONDOMINIO ARCO IRIS  Parque do Pitimbu         2           29
+P007            LATERAL DO CEPE    Nova Parnamirim         3           28
+P036                        MID         Lagoa Nova         4           28
+P032                  NORDESTAO         Lagoa Nova         4           28
+
+-- n_linhas médio por k-shell: {1: 1.0, 2: 2.58}
+-- dano médio de remoção por k-shell: {1: 0.069, 2: 0.104}
+-- betweenness média por k-shell: {1: 0.046, 2: 0.091}
+Spearman core_number x betweenness_dir: 0.18 | onion_layer x betweenness_dir: 0.27
+Spearman core_number x dano_remocao: -0.06 | onion_layer x dano_remocao: 0.09
+Spearman core_number x n_linhas: 0.68 | onion_layer x n_linhas: 0.70
+Spearman core_number x grau_nao_dir: 0.29 | onion_layer x grau_nao_dir: 0.77
+
+tronco (peso>=5): 16 nós | no 2-core: 16 | no k-core máximo: 16
+2-core: 156 nós; destes, 16 (10%) são do tronco
+1-shell (fora do 2-core, 'pontas pendentes'): 46 nós; linhas que os servem: {'745.2': 26, '745.1': 20}
+
+== k-truss ==
+3-truss: 19 nós, 20 arestas -> ['TERMINAL DE NOVA PARNAMIRIM', 'TERMINAL', 'CONDOMINIO ITATIAIA', 'IGREJA CRISTO NO BRASIL', 'CEPE', 'LATERAL DO CEPE', 'POSTO ALVARO 105 GOVERNADORIA', 'BANCO BRADESCO E ITAUBR', 'ESTACAO CARREFOUR', 'ATACADAO']
+4-truss: 0 nós, 0 arestas -> []
+5-truss: 0 nós, 0 arestas -> []
+
+==============================================================================
+[9] parte 6: modelagens alternativas e bipartida
+==============================================================================
+== 6.1 variantes de modelagem ==
+variante                                   v1 original v2 ida/volta fundidas v3 = v2 + terminais unificados
+nos                                                202                   191                            190
+arestas                                            227                   225                            223
+WCC                                                  1                     1                              1
+SCC                                                 79                    13                             12
+maior_SCC                                          124                   179                            179
+pares_alcancaveis_pct                             66.2                  93.9                           94.4
+dist_media                                        25.3                  24.9                           24.9
+diametro                                            64                    66                             66
+eficiencia                                      0.0448                0.0619                          0.062
+top1_betweenness             ESTACAO VIA DIRETA (0.37)       ATACADAO (0.57)                ATACADAO (0.57)
+dano_tronco                                      0.749                 0.689                          0.691
+k_tronco                                            16                    15                             15
+dano_corredor_Salgado_Filho                      0.804                  0.69                          0.692
+k_corredor                                          28                    27                             27
+dano_max_1_parada                                0.564                 0.416                          0.418
+
+v2 fundiu 10 locais (a partir de 21 paradas da v1); lista em data/analise/p6_fusoes_v2.csv
+tamanho dos grupos fundidos (nº de paradas v1 por nó v2): {2: 9, 3: 1}
+Spearman betweenness v1 (máx. dos membros) x v2: 0.78
+top 6 betweenness v1: ['ESTACAO VIA DIRETA', 'ESTACAO CARREFOUR', 'KERO KERO', 'ACAI', 'ATACADAO', 'MOTEL VISION']
+top 6 betweenness v2: ['ATACADAO', 'ESTACAO CARREFOUR', 'ESTACAO VIA DIRETA', 'MID', 'CAR BOX', 'SAMS CLUB SENTIDO PARNAMIRIM']
+top 6 betweenness v3: ['ATACADAO', 'ESTACAO CARREFOUR', 'ESTACAO VIA DIRETA', 'MID', 'CAR BOX', 'SAMS CLUB SENTIDO PARNAMIRIM']
+
+== 6.2 rede bipartida linha x parada ==
+
+[v1] linhas = 6, paradas = 202, arestas bipartidas = 448, densidade = 0.370
+paradas por linha: {'738': np.int64(87), '740': np.int64(84), '745.1': np.int64(49), '745.2': np.int64(54), '97': np.int64(84), '98': np.int64(90)}
+Jaccard entre linhas (compartilhamento de paradas):
+linha   738   740  745.1  745.2    97    98
+linha                                      
+738    1.00  0.53   0.25   0.10  0.21  0.49
+740    0.53  1.00   0.25   0.10  0.46  0.23
+745.1  0.25  0.25   1.00   0.03  0.10  0.09
+745.2  0.10  0.10   0.03   1.00  0.12  0.14
+97     0.21  0.46   0.10   0.12  1.00  0.47
+98     0.49  0.23   0.09   0.14  0.47  1.00
+mais parecidas: [('738', '740', np.float64(0.53)), ('738', '98', np.float64(0.49)), ('97', '98', np.float64(0.47))] | menos parecidas: [('740', '745.2', np.float64(0.1)), ('745.1', '98', np.float64(0.09)), ('745.1', '745.2', np.float64(0.03))]
+[v1] conjuntos distintos de linhas por parada: 22; os 6 mais frequentes:
+745.2            32
+738,98           26
+740,97           23
+745.1            20
+97,98            19
+738,740,745.1    14
+[v1] projeção sobre paradas, esqueleto (>= 5 linhas em comum): 18 paradas, 93 pares, componentes: [18]
+    paradas do esqueleto = 18; do tronco sequencial (peso>=5) = 16; em comum = 16
+
+[v2] linhas = 6, paradas = 191, arestas bipartidas = 434, densidade = 0.379
+paradas por linha: {'738': np.int64(85), '740': np.int64(83), '745.1': np.int64(49), '745.2': np.int64(53), '97': np.int64(79), '98': np.int64(85)}
+Jaccard entre linhas (compartilhamento de paradas):
+linha   738   740  745.1  745.2    97    98
+linha                                      
+738    1.00  0.53   0.25   0.10  0.21  0.50
+740    0.53  1.00   0.26   0.11  0.47  0.23
+745.1  0.25  0.26   1.00   0.09  0.10  0.10
+745.2  0.10  0.11   0.09   1.00  0.13  0.15
+97     0.21  0.47   0.10   0.13  1.00  0.45
+98     0.50  0.23   0.10   0.15  0.45  1.00
+mais parecidas: [('738', '740', np.float64(0.53)), ('738', '98', np.float64(0.5)), ('740', '97', np.float64(0.47))] | menos parecidas: [('745.1', '97', np.float64(0.1)), ('745.1', '98', np.float64(0.1)), ('745.1', '745.2', np.float64(0.09))]
+[v2] conjuntos distintos de linhas por parada: 21; os 6 mais frequentes:
+745.2            27
+738,98           26
+740,97           23
+745.1            16
+97,98            15
+738,740,745.1    14
+[v2] projeção sobre paradas, esqueleto (>= 5 linhas em comum): 17 paradas, 91 pares, componentes: [17]
+
+==============================================================================
+[10] parte 7: figuras finais e sensibilidade
+==============================================================================
+== sensibilidade ao limiar que define o tronco ==
+ limiar_peso  k_paradas  dano  dano_medio_janelas  percentil_vs_janelas
+           3         48 0.897               0.736                 100.0
+           4         27 0.796               0.620                  91.6
+           5         16 0.749               0.464                  95.0
+top 10 paradas por dano: [('Estação Via Direta', 56.4), ('Estação Carrefour', 47.4), ('Kero Kero', 43.4), ('Açaí', 43.3), ('Atacadão', 43.1), ('Motel Vision', 43.0), ("Sam's Club", 42.9), ('Passarela de Néopolis', 42.7), ('Hyundai', 42.6), ('PG Prime', 42.4)]
+tronco: ['Kero Kero', 'Açaí', 'Atacadão', 'Motel Vision', "Sam's Club", 'Passarela de Néopolis', 'Hyundai', 'PG Prime', 'Estação Via Direta', 'Estação Carrefour', 'Antiga Salinas', 'Posto Br Novo Horizonte', 'Passarela Néopolis Sentido Paranamirim', "Sam's Club Sentido Parnamirim", 'Car Box', 'Atacadão']

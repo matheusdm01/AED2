@@ -1,0 +1,4 @@
+variante,nos,arestas,WCC,SCC,maior_SCC,pares_alcancaveis_pct,dist_media,diametro,eficiencia,top1_betweenness,dano_tronco,k_tronco,dano_corredor_Salgado_Filho,k_corredor,dano_max_1_parada
+v1 original,202,227,1,79,124,66.2,25.3,64,0.0448,ESTACAO VIA DIRETA (0.37),0.749,16,0.804,28,0.564
+v2 ida/volta fundidas,191,225,1,13,179,93.9,24.9,66,0.0619,ATACADAO (0.57),0.689,15,0.69,27,0.416
+v3 = v2 + terminais unificados,190,223,1,12,179,94.4,24.9,66,0.062,ATACADAO (0.57),0.691,15,0.692,27,0.418
