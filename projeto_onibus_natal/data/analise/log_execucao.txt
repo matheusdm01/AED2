@@ -378,10 +378,7 @@ mais parecidas: [('738', '740', np.float64(0.53)), ('738', '98', np.float64(0.5)
 97,98            15
 738,740,745.1    14
 [v2] projeção sobre paradas, esqueleto (>= 5 linhas em comum): 17 paradas, 91 pares, componentes: [17]
-
-==============================================================================
 [10] parte 7: figuras finais e sensibilidade
-==============================================================================
 == sensibilidade ao limiar que define o tronco ==
  limiar_peso  k_paradas  dano  dano_medio_janelas  percentil_vs_janelas
            3         48 0.897               0.736                 100.0

@@ -1,6 +1,6 @@
 # Pontos críticos da rede de ônibus de Nova Parnamirim–Natal
 
-> **Antes de entregar:** preencha os dois campos marcados com `PREENCHER` (integrantes e vídeo). Sem os nomes completos e sem o link do vídeo, a nota do projeto é zero ou não é computada.
+> **Rascunho.** Os campos marcados com `PREENCHER` são obrigatórios: sem os nomes completos e sem o link do vídeo, a nota do projeto é zero ou não é computada.
 
 ## Integrantes
 
@@ -22,16 +22,7 @@ Quais paradas e trechos da rede das seis linhas que partem do Terminal de Nova P
 
 ## Modelagem
 
-- **Nó:** uma parada, identificada por nome limpo + endereço normalizado (202 nós).
-- **Aresta A → B:** B vem logo depois de A no itinerário de pelo menos uma linha (227 arestas).
-- **Direção:** sim; ida e volta são nós distintos quando o endereço muda.
-- **Peso:** número de linhas que fazem o trecho (1 a 5).
-- **Fica de fora:** horários, frequência, demanda, tempo e distância reais, outras empresas e linhas de Natal, deslocamento a pé entre paradas.
-- **Alternativas testadas:** v2 (ida e volta fundidas por nome e via) e v3 (v2 com os terminais unificados), além da rede bipartida linha × parada com projeção e Jaccard.
-
-![modelagem](figs/f2_modelagem_exemplo.png)
-
-Decisões de limpeza, problemas conhecidos dos dados e a tabela completa em [MODELAGEM.md](MODELAGEM.md).
+PREENCHER com o resumo de [MODELAGEM.md](MODELAGEM.md): nó = parada; aresta A → B se B vem logo após A em algum itinerário; dirigida; peso = número de linhas no trecho; ida e volta como nós distintos (e as variantes v2 e v3 como alternativa); fica de fora: horários, demanda, distâncias, outras empresas.
 
 ## Conteúdo do curso utilizado
 
@@ -51,7 +42,7 @@ Decisões de limpeza, problemas conhecidos dos dados e a tabela completa em [MOD
 
 ## Como executar
 
-Requer Python 3.12. Em uma máquina limpa, **um comando** cria o ambiente virtual, instala as dependências fixadas (`requirements.txt`) e reproduz tudo (cerca de 1 min 30 s a 2 min):
+Requer Python 3.12. Em uma máquina limpa, **um comando** cria o ambiente virtual, instala as dependências fixadas (`requirements.txt`) e reproduz tudo (cerca de 1 min 30 s):
 
 ```bash
 ./run_all.sh
@@ -69,49 +60,24 @@ Saídas: tabelas em `data/` e `data/analise/`, **todas as figuras em `figs/` (ge
 
 ```
 pdfs/                 itinerários originais (fonte dos dados)
-src/                  01_extrair ... 10_parte7_figuras, metricas.py, variantes.py
+src/                  01_extrair ... 09_parte6_alternativas, metricas.py, variantes.py
 data/                 dados extraídos e limpos (paradas, arestas, itinerários, incidência)
 data/analise/         tabelas de cada parte da análise e o log de execução
 figs/                 figuras geradas pelo código
 reproduzir.py         orquestrador (roda todas as etapas em ordem)
 run_all.sh            ambiente virtual + dependências + reproduzir.py
 MODELAGEM.md          decisões de modelagem e limpeza
-ANALISE_semana_05_10.md   resultados, interpretação e limitações (partes 0 a 8)
+ANALISE_semana_05_10.md   resultados e interpretação das partes 0 a 6
 ```
 
 ## Resultados
 
-**Dano** de remover um conjunto de paradas = fração dos pares de paradas antes conectados (por caminho dirigido) que deixam de ser.
-
-![rede com dano](figs/f1_rede_dano.png)
-
-- O **corredor da Av. Senador Salgado Filho** (Kero Kero → Estação Via Direta na ida; Estação Carrefour → Atacadão na volta) é usado por 5 das 6 linhas. Removê-lo (16 paradas) elimina **75%** dos pares conectados e divide a rede em 5 componentes. Isso supera cerca de 95% dos trechos contíguos de mesmo tamanho e se mantém ao variar o limiar que define o tronco (dano de 90%, 80% e 75% com 3, 4 ou 5 linhas por trecho).
-- As paradas mais críticas são a **Estação Via Direta (56%)** e a **Estação Carrefour (47%)**, seguidas pelas do corredor (42% a 43%, quase iguais porque são consecutivas).
-- A **ida** do corredor pesa mais que a volta (56,8% contra 46,2%).
-- **Grau não prevê criticidade** (Spearman 0,17 com o dano); a **betweenness prevê** (0,75).
-- A decomposição em **núcleos** (degeneracy 2) não identifica o corredor: ele é crítico pela posição, não pela densidade.
-- **Robustez:** o corredor continua sendo o ponto crítico nas três modelagens (dano de 69% a 80%), mas o nível absoluto de alcançabilidade (66% contra 94%) e o ranking de paradas individuais dependem da modelagem.
-
-![resumo](figs/f3_resumo_resultados.png)
-
-Todos os números, tabelas e a interpretação completa em [ANALISE_semana_05_10.md](ANALISE_semana_05_10.md).
+PREENCHER com a síntese de [ANALISE_semana_05_10.md](ANALISE_semana_05_10.md) quando as partes 7 e 8 estiverem prontas (figuras finais e interpretação).
 
 ## Limitações e próximos passos
 
-- **Só topologia:** sem demanda, tempo ou distância, "crítico" significa estrutural.
-- **Recorte:** seis linhas de uma empresa a partir de um terminal; sem as outras linhas e vias de Natal o corredor parece mais insubstituível do que seria na cidade real.
-- **Modelagem:** ida/volta e terminais mudam o nível absoluto e o ranking individual.
-- **"Bloqueio"** supõe que o ônibus não passa pelo ponto, sem desvio nem baldeação a pé.
-- **Dados dos PDFs** com erros de cadastro e limpeza baseada em regras; sem coordenadas.
-- **Sem validação externa** com alagamentos reais.
-- **Próximos passos:** geocodificar e usar distâncias reais; obter demanda; incluir as demais linhas de Natal; confrontar com pontos de alagamento conhecidos; modelar horários e baldeação.
+PREENCHER (ver o fim de [ANALISE_semana_05_10.md](ANALISE_semana_05_10.md)).
 
 ## Referências
 
-- Dados: Viação Cidade das Dunas, "Linhas e Itinerários", linhas 97, 98, 738, 740, 745.1 e 745.2 (PDFs em `pdfs/`).
-- Material da disciplina Algoritmos e Estrutura de Dados II (Grafos), UFRN, semanas 2 a 6.
-- Brandes, U. (2001). A faster algorithm for betweenness centrality. *Journal of Mathematical Sociology*, 25(2).
-- Latora, V.; Marchiori, M. (2001). Efficient behavior of small-world networks. *Physical Review Letters*, 87.
-- Albert, R.; Jeong, H.; Barabási, A.-L. (2000). Error and attack tolerance of complex networks. *Nature*, 406.
-- Seidman, S. B. (1983). Network structure and minimum degree. *Social Networks*, 5.
-- Software (versões em `requirements.txt`): Python, NetworkX, pandas, NumPy, SciPy, Matplotlib, pdfplumber.
+PREENCHER

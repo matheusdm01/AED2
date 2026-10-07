@@ -1,4 +1,4 @@
-# Análise (semana de 05/10): partes 0 a 8
+# Análise (semana de 05/10): partes 0 a 6
 
 Todos os números abaixo vêm de `rede_v1.graphml` e podem ser reproduzidos com `./run_all.sh`. As tabelas completas estão em `data/analise/`.
 
@@ -114,54 +114,6 @@ Figura: `figs/p6_alternativas.png`. Grafos: `rede_v2.graphml` e `rede_v3.graphml
 
 **Rede bipartida linha × parada (v1).** 6 linhas, 202 paradas, 448 arestas, densidade bipartida 0,370. Pelo Jaccard, as linhas mais parecidas são 738–740 (0,53), 738–98 (0,49) e 97–98 (0,47); a 745.2 é a mais isolada (0,03 a 0,14 com as demais). Os valores praticamente não mudam na v2 (diferença máxima de 0,06). Os conjuntos de linhas por parada mostram a estrutura: 745.2 sozinha (32 paradas), 738+98 (26, "via Alecrim"), 740+97 (23, "via Praça"), 745.1 sozinha (20), 97+98 (19) e 738+740+745.1 (14, Maria Lacerda). Na projeção sobre paradas, o esqueleto de pares com 5 ou mais linhas em comum tem 18 paradas e 1 componente, e 16 delas são exatamente o tronco encontrado pela ordem das paradas. Duas ferramentas independentes apontam o mesmo corredor.
 
-## Parte 7. Figuras finais (geradas por `src/10_parte7_figuras.py`)
-
-| figura | o que mostra | uso sugerido |
-|---|---|---|
-| `figs/f1_rede_dano.png` | a rede inteira com cada parada colorida pelo dano de sua remoção e o tronco em destaque | abertura do resultado no vídeo e no README |
-| `figs/f2_modelagem_exemplo.png` | trecho real do corredor (ida) com nó, aresta dirigida, peso e linhas | explicar a modelagem (minutos 2 a 5 do vídeo) |
-| `figs/f3_resumo_resultados.png` | painel com (a) as 10 paradas mais críticas, (b) o tronco contra 500 trechos contíguos, (c) ataques progressivos, (d) robustez à modelagem | síntese da resposta |
-| `figs/f4_assinaturas_linhas.png` | combinações de linhas que compartilham cada parada | mostrar a estrutura "via Alecrim" e "via Praça" |
-
-Além dessas, as figuras de cada parte (`p1_`, `p4_`, `p5_`, `p6_`) servem de apoio na seção de análise.
-
-## Parte 8. Interpretação e limitações
-
-### Resposta à pergunta
-
-**Quais paradas e trechos mais prejudicam a operação se bloqueados, e o corredor da Salgado Filho é o ponto crítico?** Sim, do ponto de vista estrutural.
-
-1. **O corredor é o ponto crítico.** Os trechos do eixo Kero Kero → Estação Via Direta (ida) e Estação Carrefour → Atacadão (volta) são usados por 5 das 6 linhas. Bloquear essas 16 paradas elimina 75% dos pares de paradas antes conectados e divide a rede em 5 componentes, com a maior retendo 42% das paradas. O resultado é mais forte que o de um trecho contíguo qualquer de mesmo tamanho (percentil 95 a 96 nos sorteios) e se mantém quando o corte do tronco muda: com o limiar de 3, 4 ou 5 linhas por trecho o dano é de 90%, 80% e 75% (percentil de 100, 92 e 95; `p8_sensibilidade_limiar.csv`).
-2. **Dentro do corredor, o que pesa é o trecho, não a parada.** As paradas do corredor têm dano quase igual (42% a 43%), porque são consecutivas numa cadeia: cortar qualquer uma interrompe o mesmo fluxo. As duas estações do Natal Shopping se destacam (56% e 47%) por ficarem onde as seis linhas se encontram.
-3. **A ida pesa mais que a volta.** O tronco da ida causa 56,8% de dano; o da volta, 46,2%. O trecho mais danoso individual (43,4%) está na ida.
-4. **Grau não é criticidade.** O grau quase não prevê o dano de uma parada (Spearman 0,17), a betweenness prevê bem (0,75). Ou seja, "parada com mais ligações" não é o critério certo; a posição na rede é.
-5. **A concentração de risco é o achado de planejamento:** cinco linhas dependem do mesmo eixo, enquanto a 745.2 compartilha só 41% de suas paradas com as demais. Uma rota alternativa pré-definida para esse eixo (principalmente no sentido de ida) seria a medida de maior efeito esperado. Isso é uma hipótese a validar com demanda, porque a rede só mostra topologia.
-
-### O que NÃO se sustenta (e deve ser dito no vídeo)
-
-- O nível absoluto de conectividade (66% dos pares alcançáveis) é consequência de tratar ida e volta como nós distintos; na v2 e v3 é 94%.
-- O ranking de paradas individuais muda com a modelagem (Spearman 0,78 entre v1 e v2; o primeiro lugar passa de Estação Via Direta para Atacadão).
-- A decomposição em núcleos não identifica o corredor (degeneracy 2).
-
-### Limitações e artefatos
-
-- **Só topologia.** Sem demanda, horários, frequência, tempo ou distância, "crítico" significa estrutural. Um trecho com poucos passageiros pesa igual a um lotado.
-- **Recorte da rede.** São seis linhas de uma empresa, a partir de um terminal. Sem as demais linhas e vias de Natal, o corredor parece mais insubstituível do que seria na cidade real (efeito de fronteira). Como o recorte é definido pelo terminal, não pode ser lido como amostra da cidade.
-- **Significado de "bloqueio".** Remover um nó supõe que o ônibus não passa por ali. Se só a parada fosse interditada, o ônibus poderia seguir sem parar; e os passageiros não têm desvio a pé nem baldeação entre paradas próximas no modelo.
-- **Modelagem de ida e volta e dos terminais** (ver tabela da parte 6): afeta SCC, alcançabilidade, diâmetro e ranking individual.
-- **Qualidade dos dados.** Os PDFs têm salto de numeração (745.1), itinerário terminando fora do terminal (738), nomes repetidos em ruas diferentes, endereços genéricos e grafias diferentes para o mesmo local. A limpeza usa regras e três equivalências manuais; a v2 funde por nome e via e pode juntar paradas distintas.
-- **Distância em número de paradas**, não em quilômetros; sem coordenadas ou geocodificação.
-- **Estatística dos sorteios:** 500 repetições por grupo e semente fixa; os percentis têm margem de poucos pontos (o tronco aparece no percentil 96,4 na parte 4 e 95,0 na parte 7, por sequências de sorteio diferentes).
-- **Sem validação externa:** não há dados de alagamentos reais para confrontar o modelo.
-
-### Próximos passos
-
-1. Geocodificar as paradas e usar distâncias e tempos reais nas arestas.
-2. Obter demanda (bilhetagem) para ponderar o dano por passageiros.
-3. Incluir as demais linhas de Natal (ex.: GTFS), para medir se existe desvio real do corredor.
-4. Confrontar o ranking com pontos de alagamento conhecidos da cidade.
-5. Modelar horários (rede temporal ou multicamada) e a baldeação entre paradas próximas.
-
 ## Linhas para a tabela do README ("conteúdo do curso utilizado")
 
 | conceito | semana | onde aparece | para que serviu |
@@ -178,3 +130,11 @@ Além dessas, as figuras de cada parte (`p1_`, `p4_`, `p5_`, `p6_`) servem de ap
 | redes bipartidas, matriz de incidência, projeção, Jaccard | 6 | `src/09_parte6_alternativas.py` | comparar linhas e achar o corredor sem usar a ordem das paradas |
 | modelagens alternativas (ida/volta fundidas, terminais unificados) | 2, 6 | `src/variantes.py`, `src/09_parte6_alternativas.py` | testar se as conclusões dependem da modelagem |
 
+## Limitações já visíveis
+
+- Só topologia: sem demanda, horários ou distâncias reais, "crítico" aqui é estrutural.
+- Ida e volta como nós separados e os dois "terminais" afetam SCC, diâmetro e eficiência.
+- Distância em número de paradas, e não em quilômetros ou tempo.
+- Rede de uma só empresa: outras linhas de Natal que poderiam servir de desvio não estão no modelo.
+- A fusão de ida e volta (v2) usa só nome e via; paradas diferentes com o mesmo nome na mesma via podem ter sido juntadas por engano.
+- Os testes com sorteios usam 500 repetições por grupo e semente fixa (42); os percentis têm margem de poucos pontos.
