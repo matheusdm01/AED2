@@ -138,22 +138,19 @@ Todos os números, tabelas e a interpretação completa em [ANALISE_semana_05_10
 
 ## Referências
 
-**Dados**
-
-VIAÇÃO CIDADE DAS DUNAS. *Linhas e Itinerários*: linhas 97, 98, 738, 740, 745.1 e 745.2. Tabelas de paradas em PDF (cópias em `pdfs/`).
-
 **Disciplina**
 
-SILVA, Ivanovitch. *Prova e projeto: como a unidade será avaliada*. Algoritmos e Estrutura de Dados II (Grafos). Natal: Universidade Federal do Rio Grande do Norte, 16 set. 2026. Material de aula.
+SILVA, Ivanovitch. Algoritmos e Estrutura de Dados II (DCA3702). Natal: Universidade Federal do Rio Grande do Norte, [s.d.]. Repositório da disciplina, com aulas, notebooks e leituras. Disponível em: https://github.com/ivanovitchm/datastructure. Acesso em: 7 out. 2026.
+SILVA, Ivanovitch. Prova e projeto: como a unidade será avaliada. Algoritmos e Estrutura de Dados II (Grafos). Natal: Universidade Federal do Rio Grande do Norte, 16 set. 2026. Material de aula.
 
-**Métodos**
+**Dados**
 
-ALBERT, Réka; JEONG, Hawoong; BARABÁSI, Albert-László. Error and attack tolerance of complex networks. *Nature*, v. 406, n. 6794, p. 378–382, 2000. DOI: 10.1038/35019019.
+VIAÇÃO CIDADE DAS DUNAS. Linhas e Itinerários: linhas 97, 98, 738, 740, 745.1 e 745.2. Tabelas de paradas em PDF (cópias em `projeto_onibus_natal/pdfs/`).
 
-BRANDES, Ulrik. A faster algorithm for betweenness centrality. *Journal of Mathematical Sociology*, v. 25, n. 2, p. 163–177, 2001. DOI: 10.1080/0022250X.2001.9990249.
+**Software**
 
-LATORA, Vito; MARCHIORI, Massimo. Efficient behavior of small-world networks. *Physical Review Letters*, v. 87, n. 19, art. 198701, 2001. DOI: 10.1103/PhysRevLett.87.198701.
+(versões em `projeto_onibus_natal/requirements.txt`; acesso em 7 out. 2026)
+Python (python.org), NetworkX (networkx.org), pandas (pandas.pydata.org), NumPy (numpy.org), SciPy (scipy.org), Matplotlib (matplotlib.org) e pdfplumber (github.com/jsvine/pdfplumber).
 
 SEIDMAN, Stephen B. Network structure and minimum degree. *Social Networks*, v. 5, n. 3, p. 269–287, 1983.
 
-**Software** (versões em `requirements.txt`): Python, NetworkX, pandas, NumPy, SciPy, Matplotlib, pdfplumber.
