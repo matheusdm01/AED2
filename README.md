@@ -1,10 +1,9 @@
 # Pontos críticos da rede de ônibus de Nova Parnamirim–Natal
 
-> **Rascunho.** Os campos marcados com `PREENCHER` são obrigatórios: sem os nomes completos e sem o link do vídeo, a nota do projeto é zero ou não é computada.
-
 ## Integrantes
 
-PREENCHER: Nome Completo 1 · Nome Completo 2 · Nome Completo 3
+Matheus Dantas Melo  
+Larissa Soares de Souza
 
 ## Vídeo
 
