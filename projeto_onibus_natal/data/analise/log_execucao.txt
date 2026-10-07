@@ -378,3 +378,11 @@ mais parecidas: [('738', '740', np.float64(0.53)), ('738', '98', np.float64(0.5)
 97,98            15
 738,740,745.1    14
 [v2] projeção sobre paradas, esqueleto (>= 5 linhas em comum): 17 paradas, 91 pares, componentes: [17]
+[10] parte 7: figuras finais e sensibilidade
+== sensibilidade ao limiar que define o tronco ==
+ limiar_peso  k_paradas  dano  dano_medio_janelas  percentil_vs_janelas
+           3         48 0.897               0.736                 100.0
+           4         27 0.796               0.620                  91.6
+           5         16 0.749               0.464                  95.0
+top 10 paradas por dano: [('Estação Via Direta', 56.4), ('Estação Carrefour', 47.4), ('Kero Kero', 43.4), ('Açaí', 43.3), ('Atacadão', 43.1), ('Motel Vision', 43.0), ("Sam's Club", 42.9), ('Passarela de Néopolis', 42.7), ('Hyundai', 42.6), ('PG Prime', 42.4)]
+tronco: ['Kero Kero', 'Açaí', 'Atacadão', 'Motel Vision', "Sam's Club", 'Passarela de Néopolis', 'Hyundai', 'PG Prime', 'Estação Via Direta', 'Estação Carrefour', 'Antiga Salinas', 'Posto Br Novo Horizonte', 'Passarela Néopolis Sentido Paranamirim', "Sam's Club Sentido Parnamirim", 'Car Box', 'Atacadão']
