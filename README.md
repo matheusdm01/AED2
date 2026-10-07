@@ -1,12 +1,9 @@
 # Pontos críticos da rede de ônibus de Nova Parnamirim–Natal
 
-> **Antes de entregar:** preencha os dois campos marcados com `PREENCHER` (integrantes e vídeo). Sem os nomes completos e sem o link do vídeo, a nota do projeto é zero ou não é computada.
-
-> **Organização:** este `README.md` fica na raiz do repositório e todo o projeto está na pasta [`projeto_onibus_natal/`](projeto_onibus_natal/). Os caminhos escritos em código neste texto (`src/`, `data/`, `figs/`, `pdfs/`) são relativos a essa pasta.
-
 ## Integrantes
 
-PREENCHER: Nome Completo 1 · Nome Completo 2 · Nome Completo 3
+Matheus Dantas Melo  
+Larissa Soares de Souza
 
 ## Vídeo
 
