@@ -3,7 +3,6 @@
 ## Integrantes
 
 Matheus Dantas Melo
-
 Larissa Soares de Souza
 César Augusto Miranda Azevedo
 
