@@ -1,0 +1,1658 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d3" for="edge" attr.name="linhas" attr.type="string"/>
+<key id="d2" for="edge" attr.name="weight" attr.type="long"/>
+<key id="d1" for="node" attr.name="via" attr.type="string"/>
+<key id="d0" for="node" attr.name="nome" attr.type="string"/>
+<graph edgedefault="directed"><node id="TERMINAL (unificado)">
+  <data key="d0">TERMINAL</data>
+  <data key="d1">av gastao mariz de faria</data>
+</node>
+<node id="CONDOMINIO ITATIAIA | av gastao mariz de faria">
+  <data key="d0">CONDOMINIO ITATIAIA</data>
+  <data key="d1">av gastao mariz de faria</data>
+</node>
+<node id="BANCA PRATICA | av gastao mariz de faria">
+  <data key="d0">BANCA PRATICA</data>
+  <data key="d1">av gastao mariz de faria</data>
+</node>
+<node id="IGREJA CRISTO NO BRASIL | nova parnamirim">
+  <data key="d0">IGREJA CRISTO NO BRASIL</data>
+  <data key="d1">nova parnamirim</data>
+</node>
+<node id="CEPE | av ayrton senna">
+  <data key="d0">CEPE</data>
+  <data key="d1">av ayrton senna</data>
+</node>
+<node id="LATERAL DO CEPE | av maria lacerda montenegro">
+  <data key="d0">LATERAL DO CEPE</data>
+  <data key="d1">av maria lacerda montenegro</data>
+</node>
+<node id="JOANINHA BABY | av maria lacerda montenegro">
+  <data key="d0">JOANINHA BABY</data>
+  <data key="d1">av maria lacerda montenegro</data>
+</node>
+<node id="PITTS BURG | av maria lacerda montenegro">
+  <data key="d0">PITTS BURG</data>
+  <data key="d1">av maria lacerda montenegro</data>
+</node>
+<node id="BONSAI SUSHI | av maria lacerda montenegro">
+  <data key="d0">BONSAI SUSHI</data>
+  <data key="d1">av maria lacerda montenegro</data>
+</node>
+<node id="MERCADINHO LJ | av maria lacerda montenegro">
+  <data key="d0">MERCADINHO LJ</data>
+  <data key="d1">av maria lacerda montenegro</data>
+</node>
+<node id="RESTAURANTE BOM DE BOCA | av maria lacerda montenegro">
+  <data key="d0">RESTAURANTE BOM DE BOCA</data>
+  <data key="d1">av maria lacerda montenegro</data>
+</node>
+<node id="NORDESTAO | av maria lacerda montenegro">
+  <data key="d0">NORDESTAO</data>
+  <data key="d1">av maria lacerda montenegro</data>
+</node>
+<node id="RESTAURANTE CASA GRANDE | av maria lacerda montenegro">
+  <data key="d0">RESTAURANTE CASA GRANDE</data>
+  <data key="d1">av maria lacerda montenegro</data>
+</node>
+<node id="GRAMADO HALL MRV | rua gregorio de matos">
+  <data key="d0">GRAMADO HALL MRV</data>
+  <data key="d1">rua gregorio de matos</data>
+</node>
+<node id="SHOPPING REIS MAGOS | av maria lacerda montenegro">
+  <data key="d0">SHOPPING REIS MAGOS</data>
+  <data key="d1">av maria lacerda montenegro</data>
+</node>
+<node id="CAIXA ECONOMICA | av maria lacerda montenegro">
+  <data key="d0">CAIXA ECONOMICA</data>
+  <data key="d1">av maria lacerda montenegro</data>
+</node>
+<node id="MARCO ZERO | av maria lacerda montenegro">
+  <data key="d0">MARCO ZERO</data>
+  <data key="d1">av maria lacerda montenegro</data>
+</node>
+<node id="ESPACO SALUTTE | rua maria dolores costa">
+  <data key="d0">ESPACO SALUTTE</data>
+  <data key="d1">rua maria dolores costa</data>
+</node>
+<node id="KERO KERO | rodovia governador mario covas">
+  <data key="d0">KERO KERO</data>
+  <data key="d1">rodovia governador mario covas</data>
+</node>
+<node id="ACAI | av sen salgado filho">
+  <data key="d0">ACAI</data>
+  <data key="d1">av sen salgado filho</data>
+</node>
+<node id="ATACADAO | av sen salgado filho">
+  <data key="d0">ATACADAO</data>
+  <data key="d1">av sen salgado filho</data>
+</node>
+<node id="MOTEL VISION | av sen salgado filho">
+  <data key="d0">MOTEL VISION</data>
+  <data key="d1">av sen salgado filho</data>
+</node>
+<node id="SAMS CLUB | av sen salgado filho">
+  <data key="d0">SAMS CLUB</data>
+  <data key="d1">av sen salgado filho</data>
+</node>
+<node id="PASSARELA DE NEOPOLIS | av sen salgado filho">
+  <data key="d0">PASSARELA DE NEOPOLIS</data>
+  <data key="d1">av sen salgado filho</data>
+</node>
+<node id="HYUNDAI | rodovia governador mario covas">
+  <data key="d0">HYUNDAI</data>
+  <data key="d1">rodovia governador mario covas</data>
+</node>
+<node id="PG PRIME | sem nome">
+  <data key="d0">PG PRIME</data>
+  <data key="d1">sem nome</data>
+</node>
+<node id="ESTACAO VIA DIRETA | av sen salgado filho">
+  <data key="d0">ESTACAO VIA DIRETA</data>
+  <data key="d1">av sen salgado filho</data>
+</node>
+<node id="PASSARELA DE POTILANDIA | av sen salgado filho">
+  <data key="d0">PASSARELA DE POTILANDIA</data>
+  <data key="d1">av sen salgado filho</data>
+</node>
+<node id="UNIVERSAL | av sen salgado filho">
+  <data key="d0">UNIVERSAL</data>
+  <data key="d1">av sen salgado filho</data>
+</node>
+<node id="PIZZARIA DONA MARIA | av sen salgado filho">
+  <data key="d0">PIZZARIA DONA MARIA</data>
+  <data key="d1">av sen salgado filho</data>
+</node>
+<node id="NORDESTAO | av sen salgado filho">
+  <data key="d0">NORDESTAO</data>
+  <data key="d1">av sen salgado filho</data>
+</node>
+<node id="CONDOMINIO MORRO BRANCO | av antonio basilio">
+  <data key="d0">CONDOMINIO MORRO BRANCO</data>
+  <data key="d1">av antonio basilio</data>
+</node>
+<node id="MERCEARIA SR. ROCHA | rua desembargador antonio cerejo">
+  <data key="d0">MERCEARIA SR. ROCHA</data>
+  <data key="d1">rua desembargador antonio cerejo</data>
+</node>
+<node id="LATERAL DO IFRN | av bernardo vieira">
+  <data key="d0">LATERAL DO IFRN</data>
+  <data key="d1">av bernardo vieira</data>
+</node>
+<node id="MID | av bernardo vieira">
+  <data key="d0">MID</data>
+  <data key="d1">av bernardo vieira</data>
+</node>
+<node id="IGREJA PENTECOSTAL DE JERUSALEM | av presidente bandeira">
+  <data key="d0">IGREJA PENTECOSTAL DE JERUSALEM</data>
+  <data key="d1">av presidente bandeira</data>
+</node>
+<node id="STYLUS DECORACOES | av presidente bandeira">
+  <data key="d0">STYLUS DECORACOES</data>
+  <data key="d1">av presidente bandeira</data>
+</node>
+<node id="PP2 | av presidente bandeira">
+  <data key="d0">PP2</data>
+  <data key="d1">av presidente bandeira</data>
+</node>
+<node id="MINISTERIO DO TRABALHO | av presidente bandeira">
+  <data key="d0">MINISTERIO DO TRABALHO</data>
+  <data key="d1">av presidente bandeira</data>
+</node>
+<node id="NICOLE MODAS | av presidente bandeira">
+  <data key="d0">NICOLE MODAS</data>
+  <data key="d1">av presidente bandeira</data>
+</node>
+<node id="BRADESCO ALECRIM | av presidente bandeira">
+  <data key="d0">BRADESCO ALECRIM</data>
+  <data key="d1">av presidente bandeira</data>
+</node>
+<node id="RESTAURANTE COMA BEM | av coronel estevam">
+  <data key="d0">RESTAURANTE COMA BEM</data>
+  <data key="d1">av coronel estevam</data>
+</node>
+<node id="IGREJA CRISTA DAS NACOES | rua professor luiz soares">
+  <data key="d0">IGREJA CRISTA DAS NACOES</data>
+  <data key="d1">rua professor luiz soares</data>
+</node>
+<node id="BAUDO | av bernardo vieira">
+  <data key="d0">BAUDO</data>
+  <data key="d1">av bernardo vieira</data>
+</node>
+<node id="CIA | av rio branco">
+  <data key="d0">CIA</data>
+  <data key="d1">av rio branco</data>
+</node>
+<node id="AMERICANAS | av rio branco">
+  <data key="d0">AMERICANAS</data>
+  <data key="d1">av rio branco</data>
+</node>
+<node id="RIBEIRA | velha">
+  <data key="d0">RIBEIRA</data>
+  <data key="d1">velha</data>
+</node>
+<node id="PRACA 7 DE SETEMBRO | rua ulisses caldas">
+  <data key="d0">PRACA 7 DE SETEMBRO</data>
+  <data key="d1">rua ulisses caldas</data>
+</node>
+<node id="ANTES DA JANNA BABYS | rua mossoro">
+  <data key="d0">ANTES DA JANNA BABYS</data>
+  <data key="d1">rua mossoro</data>
+</node>
+<node id="PRACA CIVICA NILIO PECANHA | av prudente de morais">
+  <data key="d0">PRACA CIVICA NILIO PECANHA</data>
+  <data key="d1">av prudente de morais</data>
+</node>
+<node id="CLINICA DE SANTA BEATRIZ | rua coronel joaquim manoel">
+  <data key="d0">CLINICA DE SANTA BEATRIZ</data>
+  <data key="d1">rua coronel joaquim manoel</data>
+</node>
+<node id="PRACA DAS FLORES | rua coronel joaquim manoel">
+  <data key="d0">PRACA DAS FLORES</data>
+  <data key="d1">rua coronel joaquim manoel</data>
+</node>
+<node id="FARMAFORMULA | av hermes da fonseca">
+  <data key="d0">FARMAFORMULA</data>
+  <data key="d1">av hermes da fonseca</data>
+</node>
+<node id="JUVENAL LAMARTINE | av hermes da fonseca">
+  <data key="d0">JUVENAL LAMARTINE</data>
+  <data key="d1">av hermes da fonseca</data>
+</node>
+<node id="FARMACIA PAGUE MENOS | av hermes da fonseca">
+  <data key="d0">FARMACIA PAGUE MENOS</data>
+  <data key="d1">av hermes da fonseca</data>
+</node>
+<node id="ESPACO REDUZIDO | av hermes da fonseca">
+  <data key="d0">ESPACO REDUZIDO</data>
+  <data key="d1">av hermes da fonseca</data>
+</node>
+<node id="MARCATO | av hermes da fonseca">
+  <data key="d0">MARCATO</data>
+  <data key="d1">av hermes da fonseca</data>
+</node>
+<node id="FINAL DO AEROCLUBE | av hermes da fonseca">
+  <data key="d0">FINAL DO AEROCLUBE</data>
+  <data key="d1">av hermes da fonseca</data>
+</node>
+<node id="ANTIGO COLEGIO BEREIANO | av hermes da fonseca">
+  <data key="d0">ANTIGO COLEGIO BEREIANO</data>
+  <data key="d1">av hermes da fonseca</data>
+</node>
+<node id="FRENTE AO MID | av sen salgado filho">
+  <data key="d0">FRENTE AO MID</data>
+  <data key="d1">av sen salgado filho</data>
+</node>
+<node id="CONDOMINIO PAIS DE GALE | av sen salgado filho">
+  <data key="d0">CONDOMINIO PAIS DE GALE</data>
+  <data key="d1">av sen salgado filho</data>
+</node>
+<node id="PORTUGAL CENTER | av sen salgado filho">
+  <data key="d0">PORTUGAL CENTER</data>
+  <data key="d1">av sen salgado filho</data>
+</node>
+<node id="DOM GURMET | av sen salgado filho">
+  <data key="d0">DOM GURMET</data>
+  <data key="d1">av sen salgado filho</data>
+</node>
+<node id="POSTO ALVARO 105 GOVERNADORIA | av sen salgado filho">
+  <data key="d0">POSTO ALVARO 105 GOVERNADORIA</data>
+  <data key="d1">av sen salgado filho</data>
+</node>
+<node id="BANCO BRADESCO E ITAUBR | av sen salgado filho">
+  <data key="d0">BANCO BRADESCO E ITAUBR</data>
+  <data key="d1">av sen salgado filho</data>
+</node>
+<node id="ESTACAO CARREFOUR | av sen salgado filho">
+  <data key="d0">ESTACAO CARREFOUR</data>
+  <data key="d1">av sen salgado filho</data>
+</node>
+<node id="ANTIGA SALINAS | av sen salgado filho">
+  <data key="d0">ANTIGA SALINAS</data>
+  <data key="d1">av sen salgado filho</data>
+</node>
+<node id="POSTO BR NOVO HORIZONTE | av sen salgado filho">
+  <data key="d0">POSTO BR NOVO HORIZONTE</data>
+  <data key="d1">av sen salgado filho</data>
+</node>
+<node id="PASSARELA NEOPOLIS SENTIDO PARANAMIRIM | av sen salgado filho">
+  <data key="d0">PASSARELA NEOPOLIS SENTIDO PARANAMIRIM</data>
+  <data key="d1">av sen salgado filho</data>
+</node>
+<node id="SAMS CLUB SENTIDO PARNAMIRIM | av dao silveira">
+  <data key="d0">SAMS CLUB SENTIDO PARNAMIRIM</data>
+  <data key="d1">av dao silveira</data>
+</node>
+<node id="CAR BOX | av sen salgado filho">
+  <data key="d0">CAR BOX</data>
+  <data key="d1">av sen salgado filho</data>
+</node>
+<node id="DIVEP | av abel cabral">
+  <data key="d0">DIVEP</data>
+  <data key="d1">av abel cabral</data>
+</node>
+<node id="CAIXA ECONOMICA DA MARIA LACERDA | av maria lacerda montenegro">
+  <data key="d0">CAIXA ECONOMICA DA MARIA LACERDA</data>
+  <data key="d1">av maria lacerda montenegro</data>
+</node>
+<node id="RESTAURANTE TEMPERO DA MARIA | av maria lacerda montenegro">
+  <data key="d0">RESTAURANTE TEMPERO DA MARIA</data>
+  <data key="d1">av maria lacerda montenegro</data>
+</node>
+<node id="EXTRA | av maria lacerda montenegro">
+  <data key="d0">EXTRA</data>
+  <data key="d1">av maria lacerda montenegro</data>
+</node>
+<node id="COLINAS DO SOL | av maria lacerda montenegro">
+  <data key="d0">COLINAS DO SOL</data>
+  <data key="d1">av maria lacerda montenegro</data>
+</node>
+<node id="CASA DO BOLO | av maria lacerda montenegro">
+  <data key="d0">CASA DO BOLO</data>
+  <data key="d1">av maria lacerda montenegro</data>
+</node>
+<node id="CLAUDI MOVEIS | av maria lacerda montenegro">
+  <data key="d0">CLAUDI MOVEIS</data>
+  <data key="d1">av maria lacerda montenegro</data>
+</node>
+<node id="ACAI BIRUTA | av maria lacerda montenegro">
+  <data key="d0">ACAI BIRUTA</data>
+  <data key="d1">av maria lacerda montenegro</data>
+</node>
+<node id="RESTAURANTE BOM PRECO | av maria lacerda montenegro">
+  <data key="d0">RESTAURANTE BOM PRECO</data>
+  <data key="d1">av maria lacerda montenegro</data>
+</node>
+<node id="LATERAL DE CEPE | av maria lacerda montenegro">
+  <data key="d0">LATERAL DE CEPE</data>
+  <data key="d1">av maria lacerda montenegro</data>
+</node>
+<node id="HAMBURGO STYLE | av gastao mariz de faria">
+  <data key="d0">HAMBURGO STYLE</data>
+  <data key="d1">av gastao mariz de faria</data>
+</node>
+<node id="CAMPO CERRADO | av gastao mariz de faria">
+  <data key="d0">CAMPO CERRADO</data>
+  <data key="d1">av gastao mariz de faria</data>
+</node>
+<node id="KERO KERO | av sen salgado filho">
+  <data key="d0">KERO KERO</data>
+  <data key="d1">av sen salgado filho</data>
+</node>
+<node id="ESPACO SALLUTE | av abel cabral">
+  <data key="d0">ESPACO SALLUTE</data>
+  <data key="d1">av abel cabral</data>
+</node>
+<node id="MARCO ZERO MARCO ACAI | rua maria dolores costa">
+  <data key="d0">MARCO ZERO MARCO ACAI</data>
+  <data key="d1">rua maria dolores costa</data>
+</node>
+<node id="IFRN | av sen salgado filho">
+  <data key="d0">IFRN</data>
+  <data key="d1">av sen salgado filho</data>
+</node>
+<node id="VILLA PARK | rua nossa senhora de lourdes">
+  <data key="d0">VILLA PARK</data>
+  <data key="d1">rua nossa senhora de lourdes</data>
+</node>
+<node id="BATALHAO 16 | av hermes da fonseca">
+  <data key="d0">BATALHAO 16</data>
+  <data key="d1">av hermes da fonseca</data>
+</node>
+<node id="IDEA DE MOVEIS | av hermes da fonseca">
+  <data key="d0">IDEA DE MOVEIS</data>
+  <data key="d1">av hermes da fonseca</data>
+</node>
+<node id="UNIVERSIDADE DA PICANHA | av hermes da fonseca">
+  <data key="d0">UNIVERSIDADE DA PICANHA</data>
+  <data key="d1">av hermes da fonseca</data>
+</node>
+<node id="BIENOVA | av hermes da fonseca">
+  <data key="d0">BIENOVA</data>
+  <data key="d1">av hermes da fonseca</data>
+</node>
+<node id="CAMPO JUVENAL LAMARTINE | av hermes da fonseca">
+  <data key="d0">CAMPO JUVENAL LAMARTINE</data>
+  <data key="d1">av hermes da fonseca</data>
+</node>
+<node id="PREDIO VELHO | av hermes da fonseca">
+  <data key="d0">PREDIO VELHO</data>
+  <data key="d1">av hermes da fonseca</data>
+</node>
+<node id="MERCADO PETROPOLIS | av hermes da fonseca">
+  <data key="d0">MERCADO PETROPOLIS</data>
+  <data key="d1">av hermes da fonseca</data>
+</node>
+<node id="HARMONY MEDICAL CENTER | rua coronel joaquim manoel">
+  <data key="d0">HARMONY MEDICAL CENTER</data>
+  <data key="d1">rua coronel joaquim manoel</data>
+</node>
+<node id="PRACA CIVICA | rua trairi">
+  <data key="d0">PRACA CIVICA</data>
+  <data key="d1">rua trairi</data>
+</node>
+<node id="HOSPITAL VARELA SANTIAGO | av deodoro da fonseca">
+  <data key="d0">HOSPITAL VARELA SANTIAGO</data>
+  <data key="d1">av deodoro da fonseca</data>
+</node>
+<node id="BANCO ITAU CIDADE | av deodoro da fonseca">
+  <data key="d0">BANCO ITAU CIDADE</data>
+  <data key="d1">av deodoro da fonseca</data>
+</node>
+<node id="ARQUIVO TRIBUNAL DE JUSTICA | rua apodi">
+  <data key="d0">ARQUIVO TRIBUNAL DE JUSTICA</data>
+  <data key="d1">rua apodi</data>
+</node>
+<node id="PRACA PRACA JOAO TIBURCIO | rua padre joao manoel">
+  <data key="d0">PRACA PRACA JOAO TIBURCIO</data>
+  <data key="d1">rua padre joao manoel</data>
+</node>
+<node id="BALDO | rua pe pinto">
+  <data key="d0">BALDO</data>
+  <data key="d1">rua pe pinto</data>
+</node>
+<node id="CEMITERIO DO ALECRIM | av fonseca e silva">
+  <data key="d0">CEMITERIO DO ALECRIM</data>
+  <data key="d1">av fonseca e silva</data>
+</node>
+<node id="INSINUANTE ALECRIM | rua amaro barreto">
+  <data key="d0">INSINUANTE ALECRIM</data>
+  <data key="d1">rua amaro barreto</data>
+</node>
+<node id="DEPOIS DO BRADESCO ALECRIM | av presidente bandeira">
+  <data key="d0">DEPOIS DO BRADESCO ALECRIM</data>
+  <data key="d1">av presidente bandeira</data>
+</node>
+<node id="LAMPADINHA ALECRIM | av presidente bandeira">
+  <data key="d0">LAMPADINHA ALECRIM</data>
+  <data key="d1">av presidente bandeira</data>
+</node>
+<node id="MARTELINHO DE OURO | av presidente bandeira">
+  <data key="d0">MARTELINHO DE OURO</data>
+  <data key="d1">av presidente bandeira</data>
+</node>
+<node id="AROLDO AUTO PECAS | av presidente bandeira">
+  <data key="d0">AROLDO AUTO PECAS</data>
+  <data key="d1">av presidente bandeira</data>
+</node>
+<node id="POSTO BR PROXIMO AO MID | av bernardo vieira">
+  <data key="d0">POSTO BR PROXIMO AO MID</data>
+  <data key="d1">av bernardo vieira</data>
+</node>
+<node id="PN329 | av joao medeiros - lagoa nova">
+  <data key="d0">PN329</data>
+  <data key="d1">av joao medeiros - lagoa nova</data>
+</node>
+<node id="CIDADE JARDIM | rua leoncio etelvino de medeiros">
+  <data key="d0">CIDADE JARDIM</data>
+  <data key="d1">rua leoncio etelvino de medeiros</data>
+</node>
+<node id="SANTANDER | rua leoncio etelvino de medeiros">
+  <data key="d0">SANTANDER</data>
+  <data key="d1">rua leoncio etelvino de medeiros</data>
+</node>
+<node id="MAURICIO DE NASSAU | av eng roberto freire">
+  <data key="d0">MAURICIO DE NASSAU</data>
+  <data key="d1">av eng roberto freire</data>
+</node>
+<node id="EXTRA | av eng roberto freire">
+  <data key="d0">EXTRA</data>
+  <data key="d1">av eng roberto freire</data>
+</node>
+<node id="SHOPPING SEEWAY | av eng roberto freire">
+  <data key="d0">SHOPPING SEEWAY</data>
+  <data key="d1">av eng roberto freire</data>
+</node>
+<node id="UNP | av eng roberto freire">
+  <data key="d0">UNP</data>
+  <data key="d1">av eng roberto freire</data>
+</node>
+<node id="TABUA DE CARNE | av eng roberto freire">
+  <data key="d0">TABUA DE CARNE</data>
+  <data key="d1">av eng roberto freire</data>
+</node>
+<node id="ESTACIO | av eng roberto freire">
+  <data key="d0">ESTACIO</data>
+  <data key="d1">av eng roberto freire</data>
+</node>
+<node id="PRAIA SHOPPING | av eng roberto freire">
+  <data key="d0">PRAIA SHOPPING</data>
+  <data key="d1">av eng roberto freire</data>
+</node>
+<node id="FEIRA DE ARTESANATO | av eng roberto freire">
+  <data key="d0">FEIRA DE ARTESANATO</data>
+  <data key="d1">av eng roberto freire</data>
+</node>
+<node id="BAR E PALESI | av eng roberto freire">
+  <data key="d0">BAR E PALESI</data>
+  <data key="d1">av eng roberto freire</data>
+</node>
+<node id="DECKY BAR | rn-063">
+  <data key="d0">DECKY BAR</data>
+  <data key="d1">rn-063</data>
+</node>
+<node id="CIGARREIRA ROTA DO SOL | av praia de pirangi">
+  <data key="d0">CIGARREIRA ROTA DO SOL</data>
+  <data key="d1">av praia de pirangi</data>
+</node>
+<node id="POSTO SHELL | av praia de pirangi">
+  <data key="d0">POSTO SHELL</data>
+  <data key="d1">av praia de pirangi</data>
+</node>
+<node id="DOLCE AMORE | av praia de pirangi">
+  <data key="d0">DOLCE AMORE</data>
+  <data key="d1">av praia de pirangi</data>
+</node>
+<node id="PN345 | av praia de pirangi">
+  <data key="d0">PN345</data>
+  <data key="d1">av praia de pirangi</data>
+</node>
+<node id="ROTATORIA | av praia de pirangi">
+  <data key="d0">ROTATORIA</data>
+  <data key="d1">av praia de pirangi</data>
+</node>
+<node id="SOLAR ENERGIAS RENOVAVEIS | rua alfredo dias de figueiredo">
+  <data key="d0">SOLAR ENERGIAS RENOVAVEIS</data>
+  <data key="d1">rua alfredo dias de figueiredo</data>
+</node>
+<node id="IGREJA PENTECOSTAL | rua alfredo dias de figueiredo">
+  <data key="d0">IGREJA PENTECOSTAL</data>
+  <data key="d1">rua alfredo dias de figueiredo</data>
+</node>
+<node id="IGREJA GUERREIROS DA ORACAO | rua angelim">
+  <data key="d0">IGREJA GUERREIROS DA ORACAO</data>
+  <data key="d1">rua angelim</data>
+</node>
+<node id="IGREJA PETENCOSTAL | rua alfredo dias de figueiredo">
+  <data key="d0">IGREJA PETENCOSTAL</data>
+  <data key="d1">rua alfredo dias de figueiredo</data>
+</node>
+<node id="ROTATORIA PN | av praia de pirangi">
+  <data key="d0">ROTATORIA PN</data>
+  <data key="d1">av praia de pirangi</data>
+</node>
+<node id="FRASQUEIRAO | av praia de pirangi">
+  <data key="d0">FRASQUEIRAO</data>
+  <data key="d1">av praia de pirangi</data>
+</node>
+<node id="ESTRELA DO ATLANTICO | av praia de pirangi">
+  <data key="d0">ESTRELA DO ATLANTICO</data>
+  <data key="d1">av praia de pirangi</data>
+</node>
+<node id="MARITIMOS BAR | av praia de pirangi">
+  <data key="d0">MARITIMOS BAR</data>
+  <data key="d1">av praia de pirangi</data>
+</node>
+<node id="CHIC PIZZA | av praia de pirangi">
+  <data key="d0">CHIC PIZZA</data>
+  <data key="d1">av praia de pirangi</data>
+</node>
+<node id="ROTA DO SOL | av praia de pirangi">
+  <data key="d0">ROTA DO SOL</data>
+  <data key="d1">av praia de pirangi</data>
+</node>
+<node id="DECKY | av eng roberto freire">
+  <data key="d0">DECKY</data>
+  <data key="d1">av eng roberto freire</data>
+</node>
+<node id="BARI PALESI | av eng roberto freire">
+  <data key="d0">BARI PALESI</data>
+  <data key="d1">av eng roberto freire</data>
+</node>
+<node id="CAMAROES | av eng roberto freire">
+  <data key="d0">CAMAROES</data>
+  <data key="d1">av eng roberto freire</data>
+</node>
+<node id="EM FRENTE DUNNAS SHOPPING | av eng roberto freire">
+  <data key="d0">EM FRENTE DUNNAS SHOPPING</data>
+  <data key="d1">av eng roberto freire</data>
+</node>
+<node id="DROGARIA GLOBO | av eng roberto freire">
+  <data key="d0">DROGARIA GLOBO</data>
+  <data key="d1">av eng roberto freire</data>
+</node>
+<node id="BRADESCO | rua leoncio etelvino de medeiros">
+  <data key="d0">BRADESCO</data>
+  <data key="d1">rua leoncio etelvino de medeiros</data>
+</node>
+<node id="UFRN - LABORATORIO DE AUTOMACAO | av contorno do campos">
+  <data key="d0">UFRN - LABORATORIO DE AUTOMACAO</data>
+  <data key="d1">av contorno do campos</data>
+</node>
+<node id="UFRN - CIT | av contorno do campos">
+  <data key="d0">UFRN - CIT</data>
+  <data key="d1">av contorno do campos</data>
+</node>
+<node id="UFRN - CENTRO DE BIOCIENCIA | av passeio dos girassois">
+  <data key="d0">UFRN - CENTRO DE BIOCIENCIA</data>
+  <data key="d1">av passeio dos girassois</data>
+</node>
+<node id="UFRN - NUPLAM 2 | av passeio dos girassois">
+  <data key="d0">UFRN - NUPLAM 2</data>
+  <data key="d1">av passeio dos girassois</data>
+</node>
+<node id="UFRN - ROTATORIA DO NEI | av passeio dos girassois">
+  <data key="d0">UFRN - ROTATORIA DO NEI</data>
+  <data key="d1">av passeio dos girassois</data>
+</node>
+<node id="UFRN - NUPLAM | av passeio dos girassois">
+  <data key="d0">UFRN - NUPLAM</data>
+  <data key="d1">av passeio dos girassois</data>
+</node>
+<node id="MERCADINHO SAO FRANCISCO E GINASIO | av santos dumont">
+  <data key="d0">MERCADINHO SAO FRANCISCO E GINASIO</data>
+  <data key="d1">av santos dumont</data>
+</node>
+<node id="IGREJA DE MIRASSOL | av santos dumont">
+  <data key="d0">IGREJA DE MIRASSOL</data>
+  <data key="d1">av santos dumont</data>
+</node>
+<node id="ESPACO REDUZIDO | av abel cabral">
+  <data key="d0">ESPACO REDUZIDO</data>
+  <data key="d1">av abel cabral</data>
+</node>
+<node id="GRUPO CONRADO | rua padre miguel">
+  <data key="d0">GRUPO CONRADO</data>
+  <data key="d1">rua padre miguel</data>
+</node>
+<node id="MANARA | rua dos juritis">
+  <data key="d0">MANARA</data>
+  <data key="d1">rua dos juritis</data>
+</node>
+<node id="CDA DISTRIBUIDORA | av abel cabral">
+  <data key="d0">CDA DISTRIBUIDORA</data>
+  <data key="d1">av abel cabral</data>
+</node>
+<node id="MC DONALDS | av abel cabral">
+  <data key="d0">MC DONALDS</data>
+  <data key="d1">av abel cabral</data>
+</node>
+<node id="OVERDOSE | av abel cabral">
+  <data key="d0">OVERDOSE</data>
+  <data key="d1">av abel cabral</data>
+</node>
+<node id="CONDOMINIO ARCO IRIS | av abel cabral">
+  <data key="d0">CONDOMINIO ARCO IRIS</data>
+  <data key="d1">av abel cabral</data>
+</node>
+<node id="IGREJA EVANGELICA CRISTA | av abel cabral">
+  <data key="d0">IGREJA EVANGELICA CRISTA</data>
+  <data key="d1">av abel cabral</data>
+</node>
+<node id="PONTUAL MATERIAL DE CONSTRUCAO | av abel cabral">
+  <data key="d0">PONTUAL MATERIAL DE CONSTRUCAO</data>
+  <data key="d1">av abel cabral</data>
+</node>
+<node id="SHOPPING AYRTON SENNA | av abel cabral">
+  <data key="d0">SHOPPING AYRTON SENNA</data>
+  <data key="d1">av abel cabral</data>
+</node>
+<node id="KI PAO SERIDO | av ayrton senna">
+  <data key="d0">KI PAO SERIDO</data>
+  <data key="d1">av ayrton senna</data>
+</node>
+<node id="CONDOMINIO ITAMARATI | av ayrton senna">
+  <data key="d0">CONDOMINIO ITAMARATI</data>
+  <data key="d1">av ayrton senna</data>
+</node>
+<node id="ANTES DA ROTATORIA CIDADE VERDE | av ayrton senna">
+  <data key="d0">ANTES DA ROTATORIA CIDADE VERDE</data>
+  <data key="d1">av ayrton senna</data>
+</node>
+<node id="COLEGIO EXTENSIVO | av gastao mariz de faria">
+  <data key="d0">COLEGIO EXTENSIVO</data>
+  <data key="d1">av gastao mariz de faria</data>
+</node>
+<node id="CONDOMINIO ITATIAIA | praca">
+  <data key="d0">CONDOMINIO ITATIAIA</data>
+  <data key="d1">praca</data>
+</node>
+<node id="MARMITARIA DELICIAS QUENTINHAS | rua araca">
+  <data key="d0">MARMITARIA DELICIAS QUENTINHAS</data>
+  <data key="d1">rua araca</data>
+</node>
+<node id="PN269 | rua adail pamplona de menezes">
+  <data key="d0">PN269</data>
+  <data key="d1">rua adail pamplona de menezes</data>
+</node>
+<node id="CONDOMINIO JARDIM DO SUL | rua adail pamplona de menezes">
+  <data key="d0">CONDOMINIO JARDIM DO SUL</data>
+  <data key="d1">rua adail pamplona de menezes</data>
+</node>
+<node id="ACQUA ESTETICA | rua adail pamplona de menezes">
+  <data key="d0">ACQUA ESTETICA</data>
+  <data key="d1">rua adail pamplona de menezes</data>
+</node>
+<node id="REVISTARIA AYRTON SENNA | rua adail pamplona de menezes">
+  <data key="d0">REVISTARIA AYRTON SENNA</data>
+  <data key="d1">rua adail pamplona de menezes</data>
+</node>
+<node id="IGREJA ASSEMBLEIA DE DEUS ABEL | av abel cabral">
+  <data key="d0">IGREJA ASSEMBLEIA DE DEUS ABEL</data>
+  <data key="d1">av abel cabral</data>
+</node>
+<node id="MINA BELA COSMETICOS | av abel cabral">
+  <data key="d0">MINA BELA COSMETICOS</data>
+  <data key="d1">av abel cabral</data>
+</node>
+<node id="PREFEITURA | av abel cabral">
+  <data key="d0">PREFEITURA</data>
+  <data key="d1">av abel cabral</data>
+</node>
+<node id="CONDOMINIO ARCO-IRIS | av abel cabral">
+  <data key="d0">CONDOMINIO ARCO-IRIS</data>
+  <data key="d1">av abel cabral</data>
+</node>
+<node id="CONDOMINIO COLINAS DAS PALMEIRAS | av abel cabral">
+  <data key="d0">CONDOMINIO COLINAS DAS PALMEIRAS</data>
+  <data key="d1">av abel cabral</data>
+</node>
+<node id="CDA | av abel cabral">
+  <data key="d0">CDA</data>
+  <data key="d1">av abel cabral</data>
+</node>
+<node id="PROSSEGUIR AUTO ESCOLA | av abel cabral">
+  <data key="d0">PROSSEGUIR AUTO ESCOLA</data>
+  <data key="d1">av abel cabral</data>
+</node>
+<node id="BOTECO RESTAURANTE E PIZZARIA | av abel cabral">
+  <data key="d0">BOTECO RESTAURANTE E PIZZARIA</data>
+  <data key="d1">av abel cabral</data>
+</node>
+<node id="PN322 | av abel cabral">
+  <data key="d0">PN322</data>
+  <data key="d1">av abel cabral</data>
+</node>
+<node id="TROPICAL LANCHES | av abel cabral">
+  <data key="d0">TROPICAL LANCHES</data>
+  <data key="d1">av abel cabral</data>
+</node>
+<node id="ATRAS DO CONDOMINIO BERTIOGA | rua adail pamplona de menezes">
+  <data key="d0">ATRAS DO CONDOMINIO BERTIOGA</data>
+  <data key="d1">rua adail pamplona de menezes</data>
+</node>
+<node id="VIA DORO | rua adail pamplona de menezes">
+  <data key="d0">VIA DORO</data>
+  <data key="d1">rua adail pamplona de menezes</data>
+</node>
+<node id="RESIDENCIAL GOLDEN VALLEY | rua adail pamplona de menezes">
+  <data key="d0">RESIDENCIAL GOLDEN VALLEY</data>
+  <data key="d1">rua adail pamplona de menezes</data>
+</node>
+<node id="VAREJAO VITORIA | rua adail pamplona de menezes">
+  <data key="d0">VAREJAO VITORIA</data>
+  <data key="d1">rua adail pamplona de menezes</data>
+</node>
+<node id="MERCADINHO ALGAROBA | rua da algaroba">
+  <data key="d0">MERCADINHO ALGAROBA</data>
+  <data key="d1">rua da algaroba</data>
+</node>
+<node id="GERBERA RECEPCOES | rua algarobas">
+  <data key="d0">GERBERA RECEPCOES</data>
+  <data key="d1">rua algarobas</data>
+</node>
+<node id="CONDOMINIO GOLDEN VALLEY | rua adail pamplona de menezes">
+  <data key="d0">CONDOMINIO GOLDEN VALLEY</data>
+  <data key="d1">rua adail pamplona de menezes</data>
+</node>
+<node id="PN312 | rua adail pamplona de menezes">
+  <data key="d0">PN312</data>
+  <data key="d1">rua adail pamplona de menezes</data>
+</node>
+<node id="PN313 | rua adail pamplona de menezes">
+  <data key="d0">PN313</data>
+  <data key="d1">rua adail pamplona de menezes</data>
+</node>
+<edge source="TERMINAL (unificado)" target="CONDOMINIO ITATIAIA | av gastao mariz de faria">
+  <data key="d2">5</data>
+  <data key="d3">738,740,745.1,97,98</data>
+</edge>
+<edge source="TERMINAL (unificado)" target="KERO KERO | av sen salgado filho">
+  <data key="d2">1</data>
+  <data key="d3">738</data>
+</edge>
+<edge source="TERMINAL (unificado)" target="IGREJA PETENCOSTAL | rua alfredo dias de figueiredo">
+  <data key="d2">1</data>
+  <data key="d3">745.2</data>
+</edge>
+<edge source="CONDOMINIO ITATIAIA | av gastao mariz de faria" target="BANCA PRATICA | av gastao mariz de faria">
+  <data key="d2">3</data>
+  <data key="d3">738,740,745.1</data>
+</edge>
+<edge source="CONDOMINIO ITATIAIA | av gastao mariz de faria" target="CONDOMINIO ITATIAIA | praca">
+  <data key="d2">2</data>
+  <data key="d3">97,98</data>
+</edge>
+<edge source="BANCA PRATICA | av gastao mariz de faria" target="IGREJA CRISTO NO BRASIL | nova parnamirim">
+  <data key="d2">3</data>
+  <data key="d3">738,740,745.1</data>
+</edge>
+<edge source="IGREJA CRISTO NO BRASIL | nova parnamirim" target="CEPE | av ayrton senna">
+  <data key="d2">2</data>
+  <data key="d3">738,745.1</data>
+</edge>
+<edge source="IGREJA CRISTO NO BRASIL | nova parnamirim" target="LATERAL DO CEPE | av maria lacerda montenegro">
+  <data key="d2">1</data>
+  <data key="d3">740</data>
+</edge>
+<edge source="CEPE | av ayrton senna" target="LATERAL DO CEPE | av maria lacerda montenegro">
+  <data key="d2">2</data>
+  <data key="d3">738,745.1</data>
+</edge>
+<edge source="LATERAL DO CEPE | av maria lacerda montenegro" target="JOANINHA BABY | av maria lacerda montenegro">
+  <data key="d2">3</data>
+  <data key="d3">738,740,745.1</data>
+</edge>
+<edge source="JOANINHA BABY | av maria lacerda montenegro" target="PITTS BURG | av maria lacerda montenegro">
+  <data key="d2">3</data>
+  <data key="d3">738,740,745.1</data>
+</edge>
+<edge source="PITTS BURG | av maria lacerda montenegro" target="BONSAI SUSHI | av maria lacerda montenegro">
+  <data key="d2">3</data>
+  <data key="d3">738,740,745.1</data>
+</edge>
+<edge source="BONSAI SUSHI | av maria lacerda montenegro" target="MERCADINHO LJ | av maria lacerda montenegro">
+  <data key="d2">3</data>
+  <data key="d3">738,740,745.1</data>
+</edge>
+<edge source="MERCADINHO LJ | av maria lacerda montenegro" target="RESTAURANTE BOM DE BOCA | av maria lacerda montenegro">
+  <data key="d2">3</data>
+  <data key="d3">738,740,745.1</data>
+</edge>
+<edge source="RESTAURANTE BOM DE BOCA | av maria lacerda montenegro" target="NORDESTAO | av maria lacerda montenegro">
+  <data key="d2">3</data>
+  <data key="d3">738,740,745.1</data>
+</edge>
+<edge source="NORDESTAO | av maria lacerda montenegro" target="RESTAURANTE CASA GRANDE | av maria lacerda montenegro">
+  <data key="d2">3</data>
+  <data key="d3">738,740,745.1</data>
+</edge>
+<edge source="RESTAURANTE CASA GRANDE | av maria lacerda montenegro" target="GRAMADO HALL MRV | rua gregorio de matos">
+  <data key="d2">3</data>
+  <data key="d3">738,740,745.1</data>
+</edge>
+<edge source="GRAMADO HALL MRV | rua gregorio de matos" target="SHOPPING REIS MAGOS | av maria lacerda montenegro">
+  <data key="d2">3</data>
+  <data key="d3">738,740,745.1</data>
+</edge>
+<edge source="SHOPPING REIS MAGOS | av maria lacerda montenegro" target="CAIXA ECONOMICA | av maria lacerda montenegro">
+  <data key="d2">3</data>
+  <data key="d3">738,740,745.1</data>
+</edge>
+<edge source="CAIXA ECONOMICA | av maria lacerda montenegro" target="MARCO ZERO | av maria lacerda montenegro">
+  <data key="d2">2</data>
+  <data key="d3">738,740</data>
+</edge>
+<edge source="CAIXA ECONOMICA | av maria lacerda montenegro" target="MARCO ZERO MARCO ACAI | rua maria dolores costa">
+  <data key="d2">1</data>
+  <data key="d3">745.1</data>
+</edge>
+<edge source="MARCO ZERO | av maria lacerda montenegro" target="ESPACO SALUTTE | rua maria dolores costa">
+  <data key="d2">1</data>
+  <data key="d3">738</data>
+</edge>
+<edge source="MARCO ZERO | av maria lacerda montenegro" target="ESPACO SALLUTE | av abel cabral">
+  <data key="d2">1</data>
+  <data key="d3">740</data>
+</edge>
+<edge source="ESPACO SALUTTE | rua maria dolores costa" target="KERO KERO | rodovia governador mario covas">
+  <data key="d2">3</data>
+  <data key="d3">738,740,745.1</data>
+</edge>
+<edge source="KERO KERO | rodovia governador mario covas" target="ACAI | av sen salgado filho">
+  <data key="d2">5</data>
+  <data key="d3">738,740,745.1,97,98</data>
+</edge>
+<edge source="ACAI | av sen salgado filho" target="ATACADAO | av sen salgado filho">
+  <data key="d2">5</data>
+  <data key="d3">738,740,745.1,97,98</data>
+</edge>
+<edge source="ATACADAO | av sen salgado filho" target="MOTEL VISION | av sen salgado filho">
+  <data key="d2">5</data>
+  <data key="d3">738,740,745.1,97,98</data>
+</edge>
+<edge source="ATACADAO | av sen salgado filho" target="DIVEP | av abel cabral">
+  <data key="d2">1</data>
+  <data key="d3">738</data>
+</edge>
+<edge source="ATACADAO | av sen salgado filho" target="KERO KERO | av sen salgado filho">
+  <data key="d2">3</data>
+  <data key="d3">740,745.2,98</data>
+</edge>
+<edge source="ATACADAO | av sen salgado filho" target="ESPACO REDUZIDO | av abel cabral">
+  <data key="d2">1</data>
+  <data key="d3">97</data>
+</edge>
+<edge source="MOTEL VISION | av sen salgado filho" target="SAMS CLUB | av sen salgado filho">
+  <data key="d2">5</data>
+  <data key="d3">738,740,745.1,97,98</data>
+</edge>
+<edge source="SAMS CLUB | av sen salgado filho" target="PASSARELA DE NEOPOLIS | av sen salgado filho">
+  <data key="d2">5</data>
+  <data key="d3">738,740,745.1,97,98</data>
+</edge>
+<edge source="PASSARELA DE NEOPOLIS | av sen salgado filho" target="HYUNDAI | rodovia governador mario covas">
+  <data key="d2">5</data>
+  <data key="d3">738,740,745.1,97,98</data>
+</edge>
+<edge source="HYUNDAI | rodovia governador mario covas" target="PG PRIME | sem nome">
+  <data key="d2">5</data>
+  <data key="d3">738,740,745.1,97,98</data>
+</edge>
+<edge source="PG PRIME | sem nome" target="ESTACAO VIA DIRETA | av sen salgado filho">
+  <data key="d2">5</data>
+  <data key="d3">738,740,745.1,97,98</data>
+</edge>
+<edge source="ESTACAO VIA DIRETA | av sen salgado filho" target="PASSARELA DE POTILANDIA | av sen salgado filho">
+  <data key="d2">4</data>
+  <data key="d3">738,740,97,98</data>
+</edge>
+<edge source="ESTACAO VIA DIRETA | av sen salgado filho" target="PN329 | av joao medeiros - lagoa nova">
+  <data key="d2">2</data>
+  <data key="d3">745.1,745.2</data>
+</edge>
+<edge source="PASSARELA DE POTILANDIA | av sen salgado filho" target="UNIVERSAL | av sen salgado filho">
+  <data key="d2">4</data>
+  <data key="d3">738,740,97,98</data>
+</edge>
+<edge source="UNIVERSAL | av sen salgado filho" target="PIZZARIA DONA MARIA | av sen salgado filho">
+  <data key="d2">4</data>
+  <data key="d3">738,740,97,98</data>
+</edge>
+<edge source="PIZZARIA DONA MARIA | av sen salgado filho" target="NORDESTAO | av sen salgado filho">
+  <data key="d2">4</data>
+  <data key="d3">738,740,97,98</data>
+</edge>
+<edge source="NORDESTAO | av sen salgado filho" target="CONDOMINIO MORRO BRANCO | av antonio basilio">
+  <data key="d2">2</data>
+  <data key="d3">738,98</data>
+</edge>
+<edge source="NORDESTAO | av sen salgado filho" target="IFRN | av sen salgado filho">
+  <data key="d2">2</data>
+  <data key="d3">740,97</data>
+</edge>
+<edge source="CONDOMINIO MORRO BRANCO | av antonio basilio" target="MERCEARIA SR. ROCHA | rua desembargador antonio cerejo">
+  <data key="d2">2</data>
+  <data key="d3">738,98</data>
+</edge>
+<edge source="MERCEARIA SR. ROCHA | rua desembargador antonio cerejo" target="LATERAL DO IFRN | av bernardo vieira">
+  <data key="d2">2</data>
+  <data key="d3">738,98</data>
+</edge>
+<edge source="LATERAL DO IFRN | av bernardo vieira" target="MID | av bernardo vieira">
+  <data key="d2">2</data>
+  <data key="d3">738,98</data>
+</edge>
+<edge source="MID | av bernardo vieira" target="IGREJA PENTECOSTAL DE JERUSALEM | av presidente bandeira">
+  <data key="d2">2</data>
+  <data key="d3">738,98</data>
+</edge>
+<edge source="MID | av bernardo vieira" target="CONDOMINIO PAIS DE GALE | av sen salgado filho">
+  <data key="d2">2</data>
+  <data key="d3">740,97</data>
+</edge>
+<edge source="IGREJA PENTECOSTAL DE JERUSALEM | av presidente bandeira" target="STYLUS DECORACOES | av presidente bandeira">
+  <data key="d2">2</data>
+  <data key="d3">738,98</data>
+</edge>
+<edge source="STYLUS DECORACOES | av presidente bandeira" target="PP2 | av presidente bandeira">
+  <data key="d2">2</data>
+  <data key="d3">738,98</data>
+</edge>
+<edge source="PP2 | av presidente bandeira" target="MINISTERIO DO TRABALHO | av presidente bandeira">
+  <data key="d2">2</data>
+  <data key="d3">738,98</data>
+</edge>
+<edge source="MINISTERIO DO TRABALHO | av presidente bandeira" target="NICOLE MODAS | av presidente bandeira">
+  <data key="d2">2</data>
+  <data key="d3">738,98</data>
+</edge>
+<edge source="NICOLE MODAS | av presidente bandeira" target="BRADESCO ALECRIM | av presidente bandeira">
+  <data key="d2">2</data>
+  <data key="d3">738,98</data>
+</edge>
+<edge source="BRADESCO ALECRIM | av presidente bandeira" target="RESTAURANTE COMA BEM | av coronel estevam">
+  <data key="d2">2</data>
+  <data key="d3">738,98</data>
+</edge>
+<edge source="RESTAURANTE COMA BEM | av coronel estevam" target="IGREJA CRISTA DAS NACOES | rua professor luiz soares">
+  <data key="d2">2</data>
+  <data key="d3">738,98</data>
+</edge>
+<edge source="IGREJA CRISTA DAS NACOES | rua professor luiz soares" target="BAUDO | av bernardo vieira">
+  <data key="d2">2</data>
+  <data key="d3">738,98</data>
+</edge>
+<edge source="BAUDO | av bernardo vieira" target="CIA | av rio branco">
+  <data key="d2">2</data>
+  <data key="d3">738,98</data>
+</edge>
+<edge source="CIA | av rio branco" target="AMERICANAS | av rio branco">
+  <data key="d2">4</data>
+  <data key="d3">738,740,97,98</data>
+</edge>
+<edge source="AMERICANAS | av rio branco" target="RIBEIRA | velha">
+  <data key="d2">4</data>
+  <data key="d3">738,740,97,98</data>
+</edge>
+<edge source="RIBEIRA | velha" target="PRACA 7 DE SETEMBRO | rua ulisses caldas">
+  <data key="d2">2</data>
+  <data key="d3">738,98</data>
+</edge>
+<edge source="RIBEIRA | velha" target="PRACA PRACA JOAO TIBURCIO | rua padre joao manoel">
+  <data key="d2">2</data>
+  <data key="d3">740,97</data>
+</edge>
+<edge source="PRACA 7 DE SETEMBRO | rua ulisses caldas" target="ANTES DA JANNA BABYS | rua mossoro">
+  <data key="d2">2</data>
+  <data key="d3">738,98</data>
+</edge>
+<edge source="ANTES DA JANNA BABYS | rua mossoro" target="PRACA CIVICA NILIO PECANHA | av prudente de morais">
+  <data key="d2">2</data>
+  <data key="d3">738,98</data>
+</edge>
+<edge source="PRACA CIVICA NILIO PECANHA | av prudente de morais" target="CLINICA DE SANTA BEATRIZ | rua coronel joaquim manoel">
+  <data key="d2">2</data>
+  <data key="d3">738,98</data>
+</edge>
+<edge source="CLINICA DE SANTA BEATRIZ | rua coronel joaquim manoel" target="PRACA DAS FLORES | rua coronel joaquim manoel">
+  <data key="d2">2</data>
+  <data key="d3">738,98</data>
+</edge>
+<edge source="PRACA DAS FLORES | rua coronel joaquim manoel" target="FARMAFORMULA | av hermes da fonseca">
+  <data key="d2">2</data>
+  <data key="d3">738,98</data>
+</edge>
+<edge source="FARMAFORMULA | av hermes da fonseca" target="JUVENAL LAMARTINE | av hermes da fonseca">
+  <data key="d2">2</data>
+  <data key="d3">738,98</data>
+</edge>
+<edge source="JUVENAL LAMARTINE | av hermes da fonseca" target="FARMACIA PAGUE MENOS | av hermes da fonseca">
+  <data key="d2">2</data>
+  <data key="d3">738,98</data>
+</edge>
+<edge source="FARMACIA PAGUE MENOS | av hermes da fonseca" target="ESPACO REDUZIDO | av hermes da fonseca">
+  <data key="d2">2</data>
+  <data key="d3">738,98</data>
+</edge>
+<edge source="ESPACO REDUZIDO | av hermes da fonseca" target="MARCATO | av hermes da fonseca">
+  <data key="d2">2</data>
+  <data key="d3">738,98</data>
+</edge>
+<edge source="MARCATO | av hermes da fonseca" target="FINAL DO AEROCLUBE | av hermes da fonseca">
+  <data key="d2">2</data>
+  <data key="d3">738,98</data>
+</edge>
+<edge source="FINAL DO AEROCLUBE | av hermes da fonseca" target="ANTIGO COLEGIO BEREIANO | av hermes da fonseca">
+  <data key="d2">2</data>
+  <data key="d3">738,98</data>
+</edge>
+<edge source="ANTIGO COLEGIO BEREIANO | av hermes da fonseca" target="FRENTE AO MID | av sen salgado filho">
+  <data key="d2">2</data>
+  <data key="d3">738,98</data>
+</edge>
+<edge source="FRENTE AO MID | av sen salgado filho" target="CONDOMINIO PAIS DE GALE | av sen salgado filho">
+  <data key="d2">2</data>
+  <data key="d3">738,98</data>
+</edge>
+<edge source="CONDOMINIO PAIS DE GALE | av sen salgado filho" target="PORTUGAL CENTER | av sen salgado filho">
+  <data key="d2">4</data>
+  <data key="d3">738,740,97,98</data>
+</edge>
+<edge source="PORTUGAL CENTER | av sen salgado filho" target="DOM GURMET | av sen salgado filho">
+  <data key="d2">4</data>
+  <data key="d3">738,740,97,98</data>
+</edge>
+<edge source="DOM GURMET | av sen salgado filho" target="POSTO ALVARO 105 GOVERNADORIA | av sen salgado filho">
+  <data key="d2">4</data>
+  <data key="d3">738,740,97,98</data>
+</edge>
+<edge source="POSTO ALVARO 105 GOVERNADORIA | av sen salgado filho" target="BANCO BRADESCO E ITAUBR | av sen salgado filho">
+  <data key="d2">2</data>
+  <data key="d3">738,98</data>
+</edge>
+<edge source="POSTO ALVARO 105 GOVERNADORIA | av sen salgado filho" target="ESTACAO CARREFOUR | av sen salgado filho">
+  <data key="d2">2</data>
+  <data key="d3">740,97</data>
+</edge>
+<edge source="BANCO BRADESCO E ITAUBR | av sen salgado filho" target="ESTACAO CARREFOUR | av sen salgado filho">
+  <data key="d2">2</data>
+  <data key="d3">738,98</data>
+</edge>
+<edge source="ESTACAO CARREFOUR | av sen salgado filho" target="ANTIGA SALINAS | av sen salgado filho">
+  <data key="d2">5</data>
+  <data key="d3">738,740,745.2,97,98</data>
+</edge>
+<edge source="ESTACAO CARREFOUR | av sen salgado filho" target="CIDADE JARDIM | rua leoncio etelvino de medeiros">
+  <data key="d2">1</data>
+  <data key="d3">745.1</data>
+</edge>
+<edge source="ANTIGA SALINAS | av sen salgado filho" target="POSTO BR NOVO HORIZONTE | av sen salgado filho">
+  <data key="d2">5</data>
+  <data key="d3">738,740,745.2,97,98</data>
+</edge>
+<edge source="POSTO BR NOVO HORIZONTE | av sen salgado filho" target="PASSARELA NEOPOLIS SENTIDO PARANAMIRIM | av sen salgado filho">
+  <data key="d2">5</data>
+  <data key="d3">738,740,745.2,97,98</data>
+</edge>
+<edge source="PASSARELA NEOPOLIS SENTIDO PARANAMIRIM | av sen salgado filho" target="SAMS CLUB SENTIDO PARNAMIRIM | av dao silveira">
+  <data key="d2">5</data>
+  <data key="d3">738,740,745.2,97,98</data>
+</edge>
+<edge source="SAMS CLUB SENTIDO PARNAMIRIM | av dao silveira" target="CAR BOX | av sen salgado filho">
+  <data key="d2">5</data>
+  <data key="d3">738,740,745.2,97,98</data>
+</edge>
+<edge source="CAR BOX | av sen salgado filho" target="ATACADAO | av sen salgado filho">
+  <data key="d2">5</data>
+  <data key="d3">738,740,745.2,97,98</data>
+</edge>
+<edge source="DIVEP | av abel cabral" target="CAIXA ECONOMICA DA MARIA LACERDA | av maria lacerda montenegro">
+  <data key="d2">2</data>
+  <data key="d3">738,740</data>
+</edge>
+<edge source="DIVEP | av abel cabral" target="ESPACO REDUZIDO | av abel cabral">
+  <data key="d2">2</data>
+  <data key="d3">745.2,98</data>
+</edge>
+<edge source="CAIXA ECONOMICA DA MARIA LACERDA | av maria lacerda montenegro" target="RESTAURANTE TEMPERO DA MARIA | av maria lacerda montenegro">
+  <data key="d2">2</data>
+  <data key="d3">738,740</data>
+</edge>
+<edge source="RESTAURANTE TEMPERO DA MARIA | av maria lacerda montenegro" target="EXTRA | av maria lacerda montenegro">
+  <data key="d2">2</data>
+  <data key="d3">738,740</data>
+</edge>
+<edge source="EXTRA | av maria lacerda montenegro" target="COLINAS DO SOL | av maria lacerda montenegro">
+  <data key="d2">2</data>
+  <data key="d3">738,740</data>
+</edge>
+<edge source="COLINAS DO SOL | av maria lacerda montenegro" target="CASA DO BOLO | av maria lacerda montenegro">
+  <data key="d2">2</data>
+  <data key="d3">738,740</data>
+</edge>
+<edge source="CASA DO BOLO | av maria lacerda montenegro" target="CLAUDI MOVEIS | av maria lacerda montenegro">
+  <data key="d2">2</data>
+  <data key="d3">738,740</data>
+</edge>
+<edge source="CLAUDI MOVEIS | av maria lacerda montenegro" target="ACAI BIRUTA | av maria lacerda montenegro">
+  <data key="d2">2</data>
+  <data key="d3">738,740</data>
+</edge>
+<edge source="ACAI BIRUTA | av maria lacerda montenegro" target="RESTAURANTE BOM PRECO | av maria lacerda montenegro">
+  <data key="d2">2</data>
+  <data key="d3">738,740</data>
+</edge>
+<edge source="RESTAURANTE BOM PRECO | av maria lacerda montenegro" target="LATERAL DE CEPE | av maria lacerda montenegro">
+  <data key="d2">2</data>
+  <data key="d3">738,740</data>
+</edge>
+<edge source="LATERAL DE CEPE | av maria lacerda montenegro" target="HAMBURGO STYLE | av gastao mariz de faria">
+  <data key="d2">2</data>
+  <data key="d3">738,740</data>
+</edge>
+<edge source="HAMBURGO STYLE | av gastao mariz de faria" target="CAMPO CERRADO | av gastao mariz de faria">
+  <data key="d2">2</data>
+  <data key="d3">738,740</data>
+</edge>
+<edge source="HAMBURGO STYLE | av gastao mariz de faria" target="COLEGIO EXTENSIVO | av gastao mariz de faria">
+  <data key="d2">1</data>
+  <data key="d3">745.2</data>
+</edge>
+<edge source="CAMPO CERRADO | av gastao mariz de faria" target="TERMINAL (unificado)">
+  <data key="d2">2</data>
+  <data key="d3">738,745.2</data>
+</edge>
+<edge source="KERO KERO | av sen salgado filho" target="DIVEP | av abel cabral">
+  <data key="d2">3</data>
+  <data key="d3">740,745.2,98</data>
+</edge>
+<edge source="ESPACO SALLUTE | av abel cabral" target="MARCO ZERO MARCO ACAI | rua maria dolores costa">
+  <data key="d2">1</data>
+  <data key="d3">740</data>
+</edge>
+<edge source="MARCO ZERO MARCO ACAI | rua maria dolores costa" target="ESPACO SALUTTE | rua maria dolores costa">
+  <data key="d2">2</data>
+  <data key="d3">740,745.1</data>
+</edge>
+<edge source="IFRN | av sen salgado filho" target="VILLA PARK | rua nossa senhora de lourdes">
+  <data key="d2">2</data>
+  <data key="d3">740,97</data>
+</edge>
+<edge source="VILLA PARK | rua nossa senhora de lourdes" target="BATALHAO 16 | av hermes da fonseca">
+  <data key="d2">2</data>
+  <data key="d3">740,97</data>
+</edge>
+<edge source="BATALHAO 16 | av hermes da fonseca" target="IDEA DE MOVEIS | av hermes da fonseca">
+  <data key="d2">2</data>
+  <data key="d3">740,97</data>
+</edge>
+<edge source="IDEA DE MOVEIS | av hermes da fonseca" target="UNIVERSIDADE DA PICANHA | av hermes da fonseca">
+  <data key="d2">2</data>
+  <data key="d3">740,97</data>
+</edge>
+<edge source="UNIVERSIDADE DA PICANHA | av hermes da fonseca" target="BIENOVA | av hermes da fonseca">
+  <data key="d2">2</data>
+  <data key="d3">740,97</data>
+</edge>
+<edge source="BIENOVA | av hermes da fonseca" target="CAMPO JUVENAL LAMARTINE | av hermes da fonseca">
+  <data key="d2">2</data>
+  <data key="d3">740,97</data>
+</edge>
+<edge source="CAMPO JUVENAL LAMARTINE | av hermes da fonseca" target="PREDIO VELHO | av hermes da fonseca">
+  <data key="d2">2</data>
+  <data key="d3">740,97</data>
+</edge>
+<edge source="PREDIO VELHO | av hermes da fonseca" target="MERCADO PETROPOLIS | av hermes da fonseca">
+  <data key="d2">2</data>
+  <data key="d3">740,97</data>
+</edge>
+<edge source="MERCADO PETROPOLIS | av hermes da fonseca" target="HARMONY MEDICAL CENTER | rua coronel joaquim manoel">
+  <data key="d2">2</data>
+  <data key="d3">740,97</data>
+</edge>
+<edge source="HARMONY MEDICAL CENTER | rua coronel joaquim manoel" target="PRACA CIVICA | rua trairi">
+  <data key="d2">2</data>
+  <data key="d3">740,97</data>
+</edge>
+<edge source="PRACA CIVICA | rua trairi" target="HOSPITAL VARELA SANTIAGO | av deodoro da fonseca">
+  <data key="d2">2</data>
+  <data key="d3">740,97</data>
+</edge>
+<edge source="HOSPITAL VARELA SANTIAGO | av deodoro da fonseca" target="BANCO ITAU CIDADE | av deodoro da fonseca">
+  <data key="d2">2</data>
+  <data key="d3">740,97</data>
+</edge>
+<edge source="BANCO ITAU CIDADE | av deodoro da fonseca" target="ARQUIVO TRIBUNAL DE JUSTICA | rua apodi">
+  <data key="d2">2</data>
+  <data key="d3">740,97</data>
+</edge>
+<edge source="ARQUIVO TRIBUNAL DE JUSTICA | rua apodi" target="CIA | av rio branco">
+  <data key="d2">2</data>
+  <data key="d3">740,97</data>
+</edge>
+<edge source="PRACA PRACA JOAO TIBURCIO | rua padre joao manoel" target="BALDO | rua pe pinto">
+  <data key="d2">2</data>
+  <data key="d3">740,97</data>
+</edge>
+<edge source="BALDO | rua pe pinto" target="CEMITERIO DO ALECRIM | av fonseca e silva">
+  <data key="d2">2</data>
+  <data key="d3">740,97</data>
+</edge>
+<edge source="CEMITERIO DO ALECRIM | av fonseca e silva" target="INSINUANTE ALECRIM | rua amaro barreto">
+  <data key="d2">2</data>
+  <data key="d3">740,97</data>
+</edge>
+<edge source="INSINUANTE ALECRIM | rua amaro barreto" target="DEPOIS DO BRADESCO ALECRIM | av presidente bandeira">
+  <data key="d2">2</data>
+  <data key="d3">740,97</data>
+</edge>
+<edge source="DEPOIS DO BRADESCO ALECRIM | av presidente bandeira" target="LAMPADINHA ALECRIM | av presidente bandeira">
+  <data key="d2">2</data>
+  <data key="d3">740,97</data>
+</edge>
+<edge source="LAMPADINHA ALECRIM | av presidente bandeira" target="MARTELINHO DE OURO | av presidente bandeira">
+  <data key="d2">2</data>
+  <data key="d3">740,97</data>
+</edge>
+<edge source="MARTELINHO DE OURO | av presidente bandeira" target="AROLDO AUTO PECAS | av presidente bandeira">
+  <data key="d2">2</data>
+  <data key="d3">740,97</data>
+</edge>
+<edge source="AROLDO AUTO PECAS | av presidente bandeira" target="POSTO BR PROXIMO AO MID | av bernardo vieira">
+  <data key="d2">2</data>
+  <data key="d3">740,97</data>
+</edge>
+<edge source="POSTO BR PROXIMO AO MID | av bernardo vieira" target="MID | av bernardo vieira">
+  <data key="d2">2</data>
+  <data key="d3">740,97</data>
+</edge>
+<edge source="PN329 | av joao medeiros - lagoa nova" target="ESTACAO CARREFOUR | av sen salgado filho">
+  <data key="d2">2</data>
+  <data key="d3">745.1,745.2</data>
+</edge>
+<edge source="CIDADE JARDIM | rua leoncio etelvino de medeiros" target="SANTANDER | rua leoncio etelvino de medeiros">
+  <data key="d2">1</data>
+  <data key="d3">745.1</data>
+</edge>
+<edge source="SANTANDER | rua leoncio etelvino de medeiros" target="MAURICIO DE NASSAU | av eng roberto freire">
+  <data key="d2">1</data>
+  <data key="d3">745.1</data>
+</edge>
+<edge source="MAURICIO DE NASSAU | av eng roberto freire" target="EXTRA | av eng roberto freire">
+  <data key="d2">1</data>
+  <data key="d3">745.1</data>
+</edge>
+<edge source="MAURICIO DE NASSAU | av eng roberto freire" target="DROGARIA GLOBO | av eng roberto freire">
+  <data key="d2">1</data>
+  <data key="d3">745.2</data>
+</edge>
+<edge source="EXTRA | av eng roberto freire" target="SHOPPING SEEWAY | av eng roberto freire">
+  <data key="d2">1</data>
+  <data key="d3">745.1</data>
+</edge>
+<edge source="EXTRA | av eng roberto freire" target="MAURICIO DE NASSAU | av eng roberto freire">
+  <data key="d2">1</data>
+  <data key="d3">745.2</data>
+</edge>
+<edge source="SHOPPING SEEWAY | av eng roberto freire" target="UNP | av eng roberto freire">
+  <data key="d2">1</data>
+  <data key="d3">745.1</data>
+</edge>
+<edge source="UNP | av eng roberto freire" target="TABUA DE CARNE | av eng roberto freire">
+  <data key="d2">1</data>
+  <data key="d3">745.1</data>
+</edge>
+<edge source="UNP | av eng roberto freire" target="EXTRA | av eng roberto freire">
+  <data key="d2">1</data>
+  <data key="d3">745.2</data>
+</edge>
+<edge source="TABUA DE CARNE | av eng roberto freire" target="ESTACIO | av eng roberto freire">
+  <data key="d2">1</data>
+  <data key="d3">745.1</data>
+</edge>
+<edge source="ESTACIO | av eng roberto freire" target="PRAIA SHOPPING | av eng roberto freire">
+  <data key="d2">1</data>
+  <data key="d3">745.1</data>
+</edge>
+<edge source="PRAIA SHOPPING | av eng roberto freire" target="FEIRA DE ARTESANATO | av eng roberto freire">
+  <data key="d2">1</data>
+  <data key="d3">745.1</data>
+</edge>
+<edge source="PRAIA SHOPPING | av eng roberto freire" target="EM FRENTE DUNNAS SHOPPING | av eng roberto freire">
+  <data key="d2">1</data>
+  <data key="d3">745.2</data>
+</edge>
+<edge source="FEIRA DE ARTESANATO | av eng roberto freire" target="BAR E PALESI | av eng roberto freire">
+  <data key="d2">1</data>
+  <data key="d3">745.1</data>
+</edge>
+<edge source="BAR E PALESI | av eng roberto freire" target="DECKY BAR | rn-063">
+  <data key="d2">1</data>
+  <data key="d3">745.1</data>
+</edge>
+<edge source="DECKY BAR | rn-063" target="CIGARREIRA ROTA DO SOL | av praia de pirangi">
+  <data key="d2">1</data>
+  <data key="d3">745.1</data>
+</edge>
+<edge source="CIGARREIRA ROTA DO SOL | av praia de pirangi" target="POSTO SHELL | av praia de pirangi">
+  <data key="d2">1</data>
+  <data key="d3">745.1</data>
+</edge>
+<edge source="POSTO SHELL | av praia de pirangi" target="DOLCE AMORE | av praia de pirangi">
+  <data key="d2">1</data>
+  <data key="d3">745.1</data>
+</edge>
+<edge source="DOLCE AMORE | av praia de pirangi" target="PN345 | av praia de pirangi">
+  <data key="d2">1</data>
+  <data key="d3">745.1</data>
+</edge>
+<edge source="PN345 | av praia de pirangi" target="ROTATORIA | av praia de pirangi">
+  <data key="d2">1</data>
+  <data key="d3">745.1</data>
+</edge>
+<edge source="ROTATORIA | av praia de pirangi" target="SOLAR ENERGIAS RENOVAVEIS | rua alfredo dias de figueiredo">
+  <data key="d2">1</data>
+  <data key="d3">745.1</data>
+</edge>
+<edge source="SOLAR ENERGIAS RENOVAVEIS | rua alfredo dias de figueiredo" target="IGREJA PENTECOSTAL | rua alfredo dias de figueiredo">
+  <data key="d2">1</data>
+  <data key="d3">745.1</data>
+</edge>
+<edge source="IGREJA PENTECOSTAL | rua alfredo dias de figueiredo" target="IGREJA GUERREIROS DA ORACAO | rua angelim">
+  <data key="d2">1</data>
+  <data key="d3">745.1</data>
+</edge>
+<edge source="IGREJA PETENCOSTAL | rua alfredo dias de figueiredo" target="ROTATORIA PN | av praia de pirangi">
+  <data key="d2">1</data>
+  <data key="d3">745.2</data>
+</edge>
+<edge source="ROTATORIA PN | av praia de pirangi" target="FRASQUEIRAO | av praia de pirangi">
+  <data key="d2">1</data>
+  <data key="d3">745.2</data>
+</edge>
+<edge source="FRASQUEIRAO | av praia de pirangi" target="ESTRELA DO ATLANTICO | av praia de pirangi">
+  <data key="d2">1</data>
+  <data key="d3">745.2</data>
+</edge>
+<edge source="ESTRELA DO ATLANTICO | av praia de pirangi" target="MARITIMOS BAR | av praia de pirangi">
+  <data key="d2">1</data>
+  <data key="d3">745.2</data>
+</edge>
+<edge source="MARITIMOS BAR | av praia de pirangi" target="CHIC PIZZA | av praia de pirangi">
+  <data key="d2">1</data>
+  <data key="d3">745.2</data>
+</edge>
+<edge source="CHIC PIZZA | av praia de pirangi" target="ROTA DO SOL | av praia de pirangi">
+  <data key="d2">1</data>
+  <data key="d3">745.2</data>
+</edge>
+<edge source="ROTA DO SOL | av praia de pirangi" target="DECKY | av eng roberto freire">
+  <data key="d2">1</data>
+  <data key="d3">745.2</data>
+</edge>
+<edge source="DECKY | av eng roberto freire" target="BARI PALESI | av eng roberto freire">
+  <data key="d2">1</data>
+  <data key="d3">745.2</data>
+</edge>
+<edge source="BARI PALESI | av eng roberto freire" target="CAMAROES | av eng roberto freire">
+  <data key="d2">1</data>
+  <data key="d3">745.2</data>
+</edge>
+<edge source="CAMAROES | av eng roberto freire" target="PRAIA SHOPPING | av eng roberto freire">
+  <data key="d2">1</data>
+  <data key="d3">745.2</data>
+</edge>
+<edge source="EM FRENTE DUNNAS SHOPPING | av eng roberto freire" target="UNP | av eng roberto freire">
+  <data key="d2">1</data>
+  <data key="d3">745.2</data>
+</edge>
+<edge source="DROGARIA GLOBO | av eng roberto freire" target="BRADESCO | rua leoncio etelvino de medeiros">
+  <data key="d2">1</data>
+  <data key="d3">745.2</data>
+</edge>
+<edge source="BRADESCO | rua leoncio etelvino de medeiros" target="UFRN - LABORATORIO DE AUTOMACAO | av contorno do campos">
+  <data key="d2">1</data>
+  <data key="d3">745.2</data>
+</edge>
+<edge source="UFRN - LABORATORIO DE AUTOMACAO | av contorno do campos" target="UFRN - CIT | av contorno do campos">
+  <data key="d2">1</data>
+  <data key="d3">745.2</data>
+</edge>
+<edge source="UFRN - CIT | av contorno do campos" target="UFRN - CENTRO DE BIOCIENCIA | av passeio dos girassois">
+  <data key="d2">1</data>
+  <data key="d3">745.2</data>
+</edge>
+<edge source="UFRN - CENTRO DE BIOCIENCIA | av passeio dos girassois" target="UFRN - NUPLAM 2 | av passeio dos girassois">
+  <data key="d2">1</data>
+  <data key="d3">745.2</data>
+</edge>
+<edge source="UFRN - NUPLAM 2 | av passeio dos girassois" target="UFRN - ROTATORIA DO NEI | av passeio dos girassois">
+  <data key="d2">1</data>
+  <data key="d3">745.2</data>
+</edge>
+<edge source="UFRN - ROTATORIA DO NEI | av passeio dos girassois" target="UFRN - NUPLAM | av passeio dos girassois">
+  <data key="d2">1</data>
+  <data key="d3">745.2</data>
+</edge>
+<edge source="UFRN - NUPLAM | av passeio dos girassois" target="MERCADINHO SAO FRANCISCO E GINASIO | av santos dumont">
+  <data key="d2">1</data>
+  <data key="d3">745.2</data>
+</edge>
+<edge source="MERCADINHO SAO FRANCISCO E GINASIO | av santos dumont" target="IGREJA DE MIRASSOL | av santos dumont">
+  <data key="d2">1</data>
+  <data key="d3">745.2</data>
+</edge>
+<edge source="IGREJA DE MIRASSOL | av santos dumont" target="ESTACAO VIA DIRETA | av sen salgado filho">
+  <data key="d2">1</data>
+  <data key="d3">745.2</data>
+</edge>
+<edge source="ESPACO REDUZIDO | av abel cabral" target="GRUPO CONRADO | rua padre miguel">
+  <data key="d2">1</data>
+  <data key="d3">745.2</data>
+</edge>
+<edge source="ESPACO REDUZIDO | av abel cabral" target="KERO KERO | rodovia governador mario covas">
+  <data key="d2">2</data>
+  <data key="d3">97,98</data>
+</edge>
+<edge source="ESPACO REDUZIDO | av abel cabral" target="BOTECO RESTAURANTE E PIZZARIA | av abel cabral">
+  <data key="d2">2</data>
+  <data key="d3">97,98</data>
+</edge>
+<edge source="GRUPO CONRADO | rua padre miguel" target="MANARA | rua dos juritis">
+  <data key="d2">1</data>
+  <data key="d3">745.2</data>
+</edge>
+<edge source="GRUPO CONRADO | rua padre miguel" target="ESPACO REDUZIDO | av abel cabral">
+  <data key="d2">1</data>
+  <data key="d3">97</data>
+</edge>
+<edge source="MANARA | rua dos juritis" target="CDA DISTRIBUIDORA | av abel cabral">
+  <data key="d2">3</data>
+  <data key="d3">745.2,97,98</data>
+</edge>
+<edge source="CDA DISTRIBUIDORA | av abel cabral" target="MC DONALDS | av abel cabral">
+  <data key="d2">3</data>
+  <data key="d3">745.2,97,98</data>
+</edge>
+<edge source="MC DONALDS | av abel cabral" target="OVERDOSE | av abel cabral">
+  <data key="d2">3</data>
+  <data key="d3">745.2,97,98</data>
+</edge>
+<edge source="OVERDOSE | av abel cabral" target="CONDOMINIO ARCO IRIS | av abel cabral">
+  <data key="d2">2</data>
+  <data key="d3">745.2,98</data>
+</edge>
+<edge source="OVERDOSE | av abel cabral" target="CONDOMINIO COLINAS DAS PALMEIRAS | av abel cabral">
+  <data key="d2">2</data>
+  <data key="d3">97,98</data>
+</edge>
+<edge source="OVERDOSE | av abel cabral" target="PN322 | av abel cabral">
+  <data key="d2">1</data>
+  <data key="d3">97</data>
+</edge>
+<edge source="CONDOMINIO ARCO IRIS | av abel cabral" target="IGREJA EVANGELICA CRISTA | av abel cabral">
+  <data key="d2">1</data>
+  <data key="d3">745.2</data>
+</edge>
+<edge source="CONDOMINIO ARCO IRIS | av abel cabral" target="PREFEITURA | av abel cabral">
+  <data key="d2">1</data>
+  <data key="d3">98</data>
+</edge>
+<edge source="IGREJA EVANGELICA CRISTA | av abel cabral" target="PONTUAL MATERIAL DE CONSTRUCAO | av abel cabral">
+  <data key="d2">1</data>
+  <data key="d3">745.2</data>
+</edge>
+<edge source="IGREJA EVANGELICA CRISTA | av abel cabral" target="PREFEITURA | av abel cabral">
+  <data key="d2">2</data>
+  <data key="d3">97,98</data>
+</edge>
+<edge source="PONTUAL MATERIAL DE CONSTRUCAO | av abel cabral" target="SHOPPING AYRTON SENNA | av abel cabral">
+  <data key="d2">1</data>
+  <data key="d3">745.2</data>
+</edge>
+<edge source="SHOPPING AYRTON SENNA | av abel cabral" target="KI PAO SERIDO | av ayrton senna">
+  <data key="d2">1</data>
+  <data key="d3">745.2</data>
+</edge>
+<edge source="KI PAO SERIDO | av ayrton senna" target="CONDOMINIO ITAMARATI | av ayrton senna">
+  <data key="d2">1</data>
+  <data key="d3">745.2</data>
+</edge>
+<edge source="CONDOMINIO ITAMARATI | av ayrton senna" target="ANTES DA ROTATORIA CIDADE VERDE | av ayrton senna">
+  <data key="d2">1</data>
+  <data key="d3">745.2</data>
+</edge>
+<edge source="ANTES DA ROTATORIA CIDADE VERDE | av ayrton senna" target="HAMBURGO STYLE | av gastao mariz de faria">
+  <data key="d2">1</data>
+  <data key="d3">745.2</data>
+</edge>
+<edge source="COLEGIO EXTENSIVO | av gastao mariz de faria" target="CAMPO CERRADO | av gastao mariz de faria">
+  <data key="d2">1</data>
+  <data key="d3">745.2</data>
+</edge>
+<edge source="CONDOMINIO ITATIAIA | praca" target="MARMITARIA DELICIAS QUENTINHAS | rua araca">
+  <data key="d2">1</data>
+  <data key="d3">97</data>
+</edge>
+<edge source="CONDOMINIO ITATIAIA | praca" target="MERCADINHO ALGAROBA | rua da algaroba">
+  <data key="d2">1</data>
+  <data key="d3">98</data>
+</edge>
+<edge source="MARMITARIA DELICIAS QUENTINHAS | rua araca" target="PN269 | rua adail pamplona de menezes">
+  <data key="d2">2</data>
+  <data key="d3">97,98</data>
+</edge>
+<edge source="PN269 | rua adail pamplona de menezes" target="CONDOMINIO JARDIM DO SUL | rua adail pamplona de menezes">
+  <data key="d2">1</data>
+  <data key="d3">97</data>
+</edge>
+<edge source="PN269 | rua adail pamplona de menezes" target="CONDOMINIO GOLDEN VALLEY | rua adail pamplona de menezes">
+  <data key="d2">1</data>
+  <data key="d3">98</data>
+</edge>
+<edge source="CONDOMINIO JARDIM DO SUL | rua adail pamplona de menezes" target="ACQUA ESTETICA | rua adail pamplona de menezes">
+  <data key="d2">1</data>
+  <data key="d3">97</data>
+</edge>
+<edge source="ACQUA ESTETICA | rua adail pamplona de menezes" target="REVISTARIA AYRTON SENNA | rua adail pamplona de menezes">
+  <data key="d2">2</data>
+  <data key="d3">97,98</data>
+</edge>
+<edge source="REVISTARIA AYRTON SENNA | rua adail pamplona de menezes" target="IGREJA ASSEMBLEIA DE DEUS ABEL | av abel cabral">
+  <data key="d2">2</data>
+  <data key="d3">97,98</data>
+</edge>
+<edge source="IGREJA ASSEMBLEIA DE DEUS ABEL | av abel cabral" target="MINA BELA COSMETICOS | av abel cabral">
+  <data key="d2">2</data>
+  <data key="d3">97,98</data>
+</edge>
+<edge source="IGREJA ASSEMBLEIA DE DEUS ABEL | av abel cabral" target="ATRAS DO CONDOMINIO BERTIOGA | rua adail pamplona de menezes">
+  <data key="d2">1</data>
+  <data key="d3">97</data>
+</edge>
+<edge source="IGREJA ASSEMBLEIA DE DEUS ABEL | av abel cabral" target="PN312 | rua adail pamplona de menezes">
+  <data key="d2">1</data>
+  <data key="d3">98</data>
+</edge>
+<edge source="MINA BELA COSMETICOS | av abel cabral" target="IGREJA EVANGELICA CRISTA | av abel cabral">
+  <data key="d2">2</data>
+  <data key="d3">97,98</data>
+</edge>
+<edge source="PREFEITURA | av abel cabral" target="CONDOMINIO ARCO-IRIS | av abel cabral">
+  <data key="d2">2</data>
+  <data key="d3">97,98</data>
+</edge>
+<edge source="PREFEITURA | av abel cabral" target="TROPICAL LANCHES | av abel cabral">
+  <data key="d2">2</data>
+  <data key="d3">97,98</data>
+</edge>
+<edge source="CONDOMINIO ARCO-IRIS | av abel cabral" target="OVERDOSE | av abel cabral">
+  <data key="d2">2</data>
+  <data key="d3">97,98</data>
+</edge>
+<edge source="CONDOMINIO COLINAS DAS PALMEIRAS | av abel cabral" target="CDA | av abel cabral">
+  <data key="d2">2</data>
+  <data key="d3">97,98</data>
+</edge>
+<edge source="CDA | av abel cabral" target="PROSSEGUIR AUTO ESCOLA | av abel cabral">
+  <data key="d2">2</data>
+  <data key="d3">97,98</data>
+</edge>
+<edge source="PROSSEGUIR AUTO ESCOLA | av abel cabral" target="GRUPO CONRADO | rua padre miguel">
+  <data key="d2">1</data>
+  <data key="d3">97</data>
+</edge>
+<edge source="PROSSEGUIR AUTO ESCOLA | av abel cabral" target="ESPACO REDUZIDO | av abel cabral">
+  <data key="d2">1</data>
+  <data key="d3">98</data>
+</edge>
+<edge source="BOTECO RESTAURANTE E PIZZARIA | av abel cabral" target="MANARA | rua dos juritis">
+  <data key="d2">2</data>
+  <data key="d3">97,98</data>
+</edge>
+<edge source="PN322 | av abel cabral" target="PREFEITURA | av abel cabral">
+  <data key="d2">1</data>
+  <data key="d3">97</data>
+</edge>
+<edge source="TROPICAL LANCHES | av abel cabral" target="IGREJA ASSEMBLEIA DE DEUS ABEL | av abel cabral">
+  <data key="d2">2</data>
+  <data key="d3">97,98</data>
+</edge>
+<edge source="ATRAS DO CONDOMINIO BERTIOGA | rua adail pamplona de menezes" target="VIA DORO | rua adail pamplona de menezes">
+  <data key="d2">1</data>
+  <data key="d3">97</data>
+</edge>
+<edge source="VIA DORO | rua adail pamplona de menezes" target="RESIDENCIAL GOLDEN VALLEY | rua adail pamplona de menezes">
+  <data key="d2">1</data>
+  <data key="d3">97</data>
+</edge>
+<edge source="RESIDENCIAL GOLDEN VALLEY | rua adail pamplona de menezes" target="VAREJAO VITORIA | rua adail pamplona de menezes">
+  <data key="d2">1</data>
+  <data key="d3">97</data>
+</edge>
+<edge source="VAREJAO VITORIA | rua adail pamplona de menezes" target="GRUPO CONRADO | rua padre miguel">
+  <data key="d2">1</data>
+  <data key="d3">98</data>
+</edge>
+<edge source="MERCADINHO ALGAROBA | rua da algaroba" target="GERBERA RECEPCOES | rua algarobas">
+  <data key="d2">1</data>
+  <data key="d3">98</data>
+</edge>
+<edge source="GERBERA RECEPCOES | rua algarobas" target="MARMITARIA DELICIAS QUENTINHAS | rua araca">
+  <data key="d2">1</data>
+  <data key="d3">98</data>
+</edge>
+<edge source="CONDOMINIO GOLDEN VALLEY | rua adail pamplona de menezes" target="ACQUA ESTETICA | rua adail pamplona de menezes">
+  <data key="d2">1</data>
+  <data key="d3">98</data>
+</edge>
+<edge source="PN312 | rua adail pamplona de menezes" target="PN313 | rua adail pamplona de menezes">
+  <data key="d2">1</data>
+  <data key="d3">98</data>
+</edge>
+<edge source="PN313 | rua adail pamplona de menezes" target="VAREJAO VITORIA | rua adail pamplona de menezes">
+  <data key="d2">1</data>
+  <data key="d3">98</data>
+</edge>
+</graph></graphml>

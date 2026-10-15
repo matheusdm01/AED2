@@ -1,0 +1,203 @@
+parada_id,nome,bairro,via,n_linhas,linhas,grau_entrada,grau_saida,forca_entrada,forca_saida,grau_total,forca_total
+P067,ESTACAO CARREFOUR,Lagoa Nova,Avenida Senador Salgado Filho,6,"738,740,745.1,745.2,97,98",3,2,6,6,5,12
+P161,GRUPO CONRADO,Parque do Pitimbu,R. Padre Miguel,3,"745.2,97,98",3,2,3,2,5,5
+P028,ESTACAO VIA DIRETA,Lagoa Nova,Avenida Senador Salgado Filho,6,"738,740,745.1,745.2,97,98",2,2,6,6,4,12
+P074,DIVEP,Nova Parnamirim,Av Abel Cabral,4,"738,740,745.2,98",2,2,4,4,4,8
+P036,MID,Lagoa Nova,Avenida Bernardo Vieira,4,"738,740,97,98",2,2,4,4,4,8
+P073,ATACADAO,Pitimbu,Av. Sen. Salgado Filho,5,"738,740,745.2,97,98",1,3,5,5,4,10
+P160,ESPACO REDUZIDO,Nova Parnamirim,Av Abel Cabral,3,"745.2,97,98",2,2,3,3,4,6
+P166,CONDOMINIO ARCO IRIS,Parque do Pitimbu,Av. Abel Cabral,2,"745.2,98",2,2,2,2,4,4
+P084,HAMBURGO STYLE,Parque dos Eucaliptos,Avenida Gastão Mariz de Faria,3,"738,740,745.2",2,2,3,3,4,6
+P003,CONDOMINIO ITATIAIA,Parque dos Eucaliptos,Avenida Gastão Mariz de Faria,5,"738,740,745.1,97,98",2,2,5,5,4,10
+P167,IGREJA EVANGELICA CRISTA,Nova Parnamirim,Av Abel Cabral,3,"745.2,97,98",2,2,3,3,4,6
+P165,OVERDOSE,Nova Parnamirim,Av Abel Cabral,3,"745.2,97,98",2,2,3,3,4,6
+P046,CIA,Cidade Alta,Avenida Rio Branco,4,"738,740,97,98",2,1,4,4,3,8
+P065,POSTO ALVARO 105 GOVERNADORIA,Lagoa Nova,Avenida Senador Salgado Filho,4,"738,740,97,98",1,2,4,4,3,8
+P019,ESPACO SALUTTE,Nova Parnamirim,Rua Maria Dolores Costa,3,"738,740,745.1",2,1,3,3,3,6
+P032,NORDESTAO,Lagoa Nova,Avenida Senador Salgado Filho,4,"738,740,97,98",1,2,4,4,3,8
+P018,MARCO ZERO,Nova Parnamirim,Avenida Maria Lacerda Montenegro,2,"738,740",1,2,2,2,3,4
+P191,PREFEITURA,Nova Parnamirim,Av Abel Cabral,2,"97,98",2,1,2,2,3,4
+P087,KERO KERO,Candelaria,Av Sen. Salgado Filho,4,"738,740,745.2,98",2,1,4,3,3,7
+P085,CAMPO CERRADO,Parque dos Eucaliptos,Avenida Gastão Mariz de Faria,3,"738,740,745.2",2,1,3,2,3,5
+P048,RIBEIRA,Ribeira,Velha,4,"738,740,97,98",1,2,4,4,3,8
+P062,CONDOMINIO PAIS DE GALE,Lagoa Nova,Avenida Senador Salgado Filho,4,"738,740,97,98",2,1,4,4,3,8
+P175,MARMITARIA DELICIAS QUENTINHAS,Nordeste,R Araca,2,"97,98",2,1,2,2,3,4
+P176,PN269,Nova Parnamirim,R Adail Pamplona De Menezes,2,"97,98",1,2,2,2,3,4
+P178,ACQUA ESTETICA,Nova Parnamirim,R Adail Pamplona De Menezes,2,"97,98",2,1,2,2,3,4
+P174,CONDOMINIO ITATIAIA,Parque Dos Eucaliptos,Praca,2,"97,98",1,2,2,2,3,4
+P187,ESPACO REDUZIDO,Nova Parnamirim,Avenida Abel Cabral,2,"97,98",2,1,2,2,3,4
+P189,OVERDOSE,Nova Parnamirim,Av Abel Cabral,2,"97,98",1,2,2,2,3,4
+P193,IGREJA ASSEMBLEIA DE DEUS ABEL,Nova Parnamirim,Av Abel Cabral,2,"97,98",1,2,2,2,3,4
+P186,PROSSEGUIR AUTO ESCOLA,Nova Parnamirim,Av Abel Cabral,2,"97,98",1,2,2,2,3,4
+P089,MARCO ZERO MARCO ACAI,Nova Parnamirim,Rua Maria Dolores Costa,2,"740,745.1",2,1,2,2,3,4
+P164,MC DONALDS,Parque do Pitimbu,Av. Abel Cabral,3,"745.2,97,98",1,2,3,3,3,6
+P162,MANARA,Parque do Pitimbu,R. dos Juritis,3,"745.2,97,98",2,1,3,3,3,6
+P005,IGREJA CRISTO NO BRASIL,Nova Parnamirim,Nova Parnamirim,3,"738,740,745.1",1,2,3,3,3,6
+P007,LATERAL DO CEPE,Nova Parnamirim,Avenida Maria Lacerda Montenegro,3,"738,740,745.1",2,1,3,3,3,6
+P017,CAIXA ECONOMICA,Nova Parnamirim,Avenida Maria Lacerda Montenegro,3,"738,740,745.1",1,2,3,3,3,6
+P020,KERO KERO,Nova Parnamirim,Rodovia Governador Mário Covas,5,"738,740,745.1,97,98",2,1,5,5,3,10
+P197,VAREJAO VITORIA,Nova Parnamirim,R Adail Pamplona De Menezes,2,"97,98",2,1,2,1,3,3
+P010,BONSAI SUSHI,Nova Parnamirim,Avenida Maria Lacerda Montenegro,3,"738,740,745.1",1,1,3,3,2,6
+P009,PITTS BURG,Nova Parnamirim,Avenida Maria Lacerda Montenegro,3,"738,740,745.1",1,1,3,3,2,6
+P008,JOANINHA BABY,Nova Parnamirim,Avenida Maria Lacerda Montenegro,3,"738,740,745.1",1,1,3,3,2,6
+P001,TERMINAL DE NOVA PARNAMIRIM,Nova Parnamirim,Rua Cupuaçu,5,"738,740,745.1,97,98",0,2,0,5,2,5
+P042,BRADESCO ALECRIM,Alecrim,Avenida Presidente Bandeira,2,"738,98",1,1,2,2,2,4
+P041,NICOLE MODAS,Alecrim,Avenida Presidente Bandeira,2,"738,98",1,1,2,2,2,4
+P040,MINISTERIO DO TRABALHO,Alecrim,Avenida Presidente Bandeira,2,"738,98",1,1,2,2,2,4
+P039,PP2,Alecrim,Avenida Presidente Bandeira,2,"738,98",1,1,2,2,2,4
+P038,STYLUS DECORACOES,Lagoa Seca,Avenida Presidente Bandeira,2,"738,98",1,1,2,2,2,4
+P037,IGREJA PENTECOSTAL DE JERUSALEM,Lagoa Seca,Avenida Presidente Bandeira,2,"738,98",1,1,2,2,2,4
+P035,LATERAL DO IFRN,Lagoa Nova,Avenida Bernardo Vieira,2,"738,98",1,1,2,2,2,4
+P044,IGREJA CRISTA DAS NACOES,Alecrim,Rua Professor Luiz Soares,2,"738,98",1,1,2,2,2,4
+P051,PRACA CIVICA NILIO PECANHA,Petrópolis,Avenida Prudente de Morais,2,"738,98",1,1,2,2,2,4
+P052,CLINICA DE SANTA BEATRIZ,Petrópolis,Rua Coronel Joaquim Manoel,2,"738,98",1,1,2,2,2,4
+P053,PRACA DAS FLORES,Petrópolis,Rua Coronel Joaquim Manoel,2,"738,98",1,1,2,2,2,4
+P006,CEPE,Neopolis,Av Ayrton Senna,2,"738,745.1",1,1,2,2,2,4
+P004,BANCA PRATICA,Nova Parnamirim,Avenida Gastão Mariz de Faria,3,"738,740,745.1",1,1,3,3,2,6
+P002,TERMINAL,Parque dos Eucaliptos,Av. Gastão Mariz de Faria,2,"738,740",1,1,2,2,2,4
+P015,GRAMADO HALL MRV,Parque do Pitimbu,R. Gregório de Matos,3,"738,740,745.1",1,1,3,3,2,6
+P014,RESTAURANTE CASA GRANDE,Parque do Pitimbu,Av. Maria Lacerda Montenegro,3,"738,740,745.1",1,1,3,3,2,6
+P026,HYUNDAI,Candelária,Rodovia Governador Mário Covas,5,"738,740,745.1,97,98",1,1,5,5,2,10
+P025,PASSARELA DE NEOPOLIS,Neópolis,Avenida Senador Salgado Filho,5,"738,740,745.1,97,98",1,1,5,5,2,10
+P024,SAMS CLUB,Neópolis,Av. Sen. Salgado Filho,5,"738,740,745.1,97,98",1,1,5,5,2,10
+P029,PASSARELA DE POTILANDIA,Lagoa Nova,Avenida Senador Salgado Filho,4,"738,740,97,98",1,1,4,4,2,8
+P030,UNIVERSAL,Lagoa Nova,Avenida Senador Salgado Filho,4,"738,740,97,98",1,1,4,4,2,8
+P031,PIZZARIA DONA MARIA,Lagoa Nova,Avenida Senador Salgado Filho,4,"738,740,97,98",1,1,4,4,2,8
+P033,CONDOMINIO MORRO BRANCO,Lagoa Nova,Avenida Antônio Basílio,2,"738,98",1,1,2,2,2,4
+P027,PG PRIME,Capim Macio,SEM NOME,5,"738,740,745.1,97,98",1,1,5,5,2,10
+P034,MERCEARIA SR. ROCHA,Nova Descoberta,Rua Desembargador Antônio Cerejo,2,"738,98",1,1,2,2,2,4
+P016,SHOPPING REIS MAGOS,Nova Parnamirim,Avenida Maria Lacerda Montenegro,3,"738,740,745.1",1,1,3,3,2,6
+P021,ACAI,Pitimbu,Av. Sen. Salgado Filho,5,"738,740,745.1,97,98",1,1,5,5,2,10
+P022,ATACADAO,Pitimbu,Av. Sen. Salgado Filho,5,"738,740,745.1,97,98",1,1,5,5,2,10
+P023,MOTEL VISION,Candelária,Av. Sen. Salgado Filho,5,"738,740,745.1,97,98",1,1,5,5,2,10
+P013,NORDESTAO,Nova Parnamirim,Av Maria Lacerda Montenegro,3,"738,740,745.1",1,1,3,3,2,6
+P011,MERCADINHO LJ,Parque dos Eucaliptos,Av. Maria Lacerda Montenegro,3,"738,740,745.1",1,1,3,3,2,6
+P012,RESTAURANTE BOM DE BOCA,Parque dos Eucaliptos,Av. Maria Lacerda Montenegro,3,"738,740,745.1",1,1,3,3,2,6
+P071,SAMS CLUB SENTIDO PARNAMIRIM,Candelária,Av. Dão Silveira,5,"738,740,745.2,97,98",1,1,5,5,2,10
+P072,CAR BOX,Candelária,Av. Sen. Salgado Filho,5,"738,740,745.2,97,98",1,1,5,5,2,10
+P069,POSTO BR NOVO HORIZONTE,Candelária,Av. Sen. Salgado Filho,5,"738,740,745.2,97,98",1,1,5,5,2,10
+P070,PASSARELA NEOPOLIS SENTIDO PARANAMIRIM,Candelária,Av. Sen. Salgado Filho,5,"738,740,745.2,97,98",1,1,5,5,2,10
+P068,ANTIGA SALINAS,Candelária,Avenida Senador Salgado Filho,5,"738,740,745.2,97,98",1,1,5,5,2,10
+P063,PORTUGAL CENTER,Lagoa Nova,Avenida Senador Salgado Filho,4,"738,740,97,98",1,1,4,4,2,8
+P064,DOM GURMET,Lagoa Nova,Avenida Senador Salgado Filho,4,"738,740,97,98",1,1,4,4,2,8
+P066,BANCO BRADESCO E ITAUBR,Candelária,Avenida Senador Salgado Filho,2,"738,98",1,1,2,2,2,4
+P059,FINAL DO AEROCLUBE,Tirol,Avenida Hermes da Fonseca,2,"738,98",1,1,2,2,2,4
+P060,ANTIGO COLEGIO BEREIANO,Tirol,Avenida Hermes da Fonseca,2,"738,98",1,1,2,2,2,4
+P061,FRENTE AO MID,Tirol,Avenida Senador Salgado Filho,2,"738,98",1,1,2,2,2,4
+P054,FARMAFORMULA,Petrópolis,Avenida Hermes da Fonseca,2,"738,98",1,1,2,2,2,4
+P055,JUVENAL LAMARTINE,Tirol,Avenida Hermes da Fonseca,2,"738,98",1,1,2,2,2,4
+P056,FARMACIA PAGUE MENOS,Tirol,Avenida Hermes da Fonseca,2,"738,98",1,1,2,2,2,4
+P057,ESPACO REDUZIDO,Tirol,Avenida Hermes da Fonseca,2,"738,98",1,1,2,2,2,4
+P058,MARCATO,Tirol,Avenida Hermes da Fonseca,2,"738,98",1,1,2,2,2,4
+P050,ANTES DA JANNA BABYS,Tirol,Rua Mossoró,2,"738,98",1,1,2,2,2,4
+P049,PRACA 7 DE SETEMBRO,Cidade Alta,Rua Ulisses Caldas,2,"738,98",1,1,2,2,2,4
+P047,AMERICANAS,Cidade Alta,Avenida Rio Branco,4,"738,740,97,98",1,1,4,4,2,8
+P045,BAUDO,Quintas,Avenida Bernardo Viêira,2,"738,98",1,1,2,2,2,4
+P043,RESTAURANTE COMA BEM,Alecrim,Avenida Coronel Estevam,2,"738,98",1,1,2,2,2,4
+P075,CAIXA ECONOMICA DA MARIA LACERDA,Nova Parnamirim,Av Maria Lacerda Montenegro,2,"738,740",1,1,2,2,2,4
+P077,EXTRA,Nova Parnamirim,Av Maria Lacerda Montenegro,2,"738,740",1,1,2,2,2,4
+P076,RESTAURANTE TEMPERO DA MARIA,Nova Parnamirim,Av Maria Lacerda Montenegro,2,"738,740",1,1,2,2,2,4
+P082,RESTAURANTE BOM PRECO,Nova Parnamirim,Avenida Maria Lacerda Montenegro,2,"738,740",1,1,2,2,2,4
+P081,ACAI BIRUTA,Nova Parnamirim,Av Maria Lacerda Montenegro,2,"738,740",1,1,2,2,2,4
+P080,CLAUDI MOVEIS,Nova Parnamirim,Av Maria Lacerda Montenegro,2,"738,740",1,1,2,2,2,4
+P079,CASA DO BOLO,Nova Parnamirim,Av Maria Lacerda Montenegro,2,"738,740",1,1,2,2,2,4
+P086,TERMINAL,Parque dos Eucaliptos,Av. Gastão Mariz de Faria,2,"738,745.2",1,1,2,1,2,3
+P083,LATERAL DE CEPE,Nova Parnamirim,Av Maria Lacerda Montenegro,2,"738,740",1,1,2,2,2,4
+P088,ESPACO SALLUTE,Clube do Pitimbu,Avenida Abel Cabral,1,740,1,1,1,1,2,2
+P078,COLINAS DO SOL,Nova Parnamirim,Av Maria Lacerda Montenegro,2,"738,740",1,1,2,2,2,4
+P107,INSINUANTE ALECRIM,Alecrim,Rua Amaro Barreto,2,"740,97",1,1,2,2,2,4
+P108,DEPOIS DO BRADESCO ALECRIM,Alecrim,Avenida Presidente Bandeira,2,"740,97",1,1,2,2,2,4
+P109,LAMPADINHA ALECRIM,Alecrim,Avenida Presidente Bandeira,2,"740,97",1,1,2,2,2,4
+P110,MARTELINHO DE OURO,Lagoa Seca,Avenida Presidente Bandeira,2,"740,97",1,1,2,2,2,4
+P111,AROLDO AUTO PECAS,Lagoa Seca,Avenida Presidente Bandeira,2,"740,97",1,1,2,2,2,4
+P112,POSTO BR PROXIMO AO MID,Lagoa Nova,Avenida Bernardo Vieira,2,"740,97",1,1,2,2,2,4
+P113,PN329,Lagoa Nova,Av. João Medeiros - Lagoa Nova,2,"745.1,745.2",1,1,2,2,2,4
+P114,CIDADE JARDIM,Capim Macio,R. Leôncio Etelvino de Medeiros,1,745.1,1,1,1,1,2,2
+P115,SANTANDER,Capim Macio,R. Leôncio Etelvino de Medeiros,1,745.1,1,1,1,1,2,2
+P116,MAURICIO DE NASSAU,Capim Macio,Av. Eng. Roberto Freire,1,745.1,1,1,1,1,2,2
+P117,EXTRA,Capim Macio,Av. Eng. Roberto Freire,1,745.1,1,1,1,1,2,2
+P118,SHOPPING SEEWAY,Capim Macio,Av. Eng. Roberto Freire,1,745.1,1,1,1,1,2,2
+P119,UNP,Capim Macio,Avenida Engenheiro Roberto Freire,1,745.1,1,1,1,1,2,2
+P120,TABUA DE CARNE,Capim Macio,Avenida Engenheiro Roberto Freire,1,745.1,1,1,1,1,2,2
+P121,ESTACIO,Capim Macio,Avenida Engenheiro Roberto Freire,1,745.1,1,1,1,1,2,2
+P090,IFRN,Tirol,Avenida Senador Salgado Filho,2,"740,97",1,1,2,2,2,4
+P091,VILLA PARK,Tirol,Rua Nossa Senhora de Lourdes,2,"740,97",1,1,2,2,2,4
+P092,BATALHAO 16,Tirol,Avenida Hermes da Fonseca,2,"740,97",1,1,2,2,2,4
+P093,IDEA DE MOVEIS,Tirol,Avenida Hermes da Fonseca,2,"740,97",1,1,2,2,2,4
+P094,UNIVERSIDADE DA PICANHA,Tirol,Avenida Hermes da Fonseca,2,"740,97",1,1,2,2,2,4
+P095,BIENOVA,Tirol,Avenida Hermes da Fonseca,2,"740,97",1,1,2,2,2,4
+P096,CAMPO JUVENAL LAMARTINE,Tirol,Avenida Hermes da Fonseca,2,"740,97",1,1,2,2,2,4
+P097,PREDIO VELHO,Petrópolis,Avenida Hermes da Fonseca,2,"740,97",1,1,2,2,2,4
+P098,MERCADO PETROPOLIS,Petrópolis,Avenida Hermes da Fonseca,2,"740,97",1,1,2,2,2,4
+P099,HARMONY MEDICAL CENTER,Petrópolis,Rua Coronel Joaquim Manoel,2,"740,97",1,1,2,2,2,4
+P100,PRACA CIVICA,Petrópolis,Rua Traíri,2,"740,97",1,1,2,2,2,4
+P101,HOSPITAL VARELA SANTIAGO,Cidade Alta,Avenida Deodoro da Fonseca,2,"740,97",1,1,2,2,2,4
+P102,BANCO ITAU CIDADE,Cidade Alta,Avenida Deodoro da Fonseca,2,"740,97",1,1,2,2,2,4
+P103,ARQUIVO TRIBUNAL DE JUSTICA,Cidade Alta,Rua Apodi,2,"740,97",1,1,2,2,2,4
+P104,PRACA PRACA JOAO TIBURCIO,Cidade Alta,Rua Padre João Manoel,2,"740,97",1,1,2,2,2,4
+P105,BALDO,Cidade Alta,R Pe. Pinto,2,"740,97",1,1,2,2,2,4
+P106,CEMITERIO DO ALECRIM,Alecrim,Avenida Fonseca E Silva,2,"740,97",1,1,2,2,2,4
+P170,KI PAO SERIDO,Parque dos Eucaliptos,Avenida Ayrton Senna,1,745.2,1,1,1,1,2,2
+P169,SHOPPING AYRTON SENNA,Parque dos Eucaliptos,Av. Abel Cabral,1,745.2,1,1,1,1,2,2
+P138,ESTRELA DO ATLANTICO,Ponta Negra,Av. Praia de Pirangi,1,745.2,1,1,1,1,2,2
+P137,FRASQUEIRAO,Ponta Negra,Av. Praia de Pirangi,1,745.2,1,1,1,1,2,2
+P135,IGREJA PETENCOSTAL,Ponta Negra,R. Alfredo Dias de Figueiredo,1,745.2,1,1,1,1,2,2
+P136,ROTATORIA PN,Ponta Negra,Av. Praia de Pirangi,1,745.2,1,1,1,1,2,2
+P132,IGREJA PENTECOSTAL,Ponta Negra,Rua Alfredo Dias de Figueiredo,1,745.1,1,1,1,1,2,2
+P131,SOLAR ENERGIAS RENOVAVEIS,Ponta Negra,Rua Alfredo Dias de Figueiredo,1,745.1,1,1,1,1,2,2
+P130,ROTATORIA,Ponta Negra,Avenida Praia de Pirangi,1,745.1,1,1,1,1,2,2
+P129,PN345,Ponta Negra,Avenida Praia de Pirangi,1,745.1,1,1,1,1,2,2
+P128,DOLCE AMORE,Ponta Negra,Avenida Praia de Pirangi,1,745.1,1,1,1,1,2,2
+P127,POSTO SHELL,Ponta Negra,Av. Praia de Pirangi,1,745.1,1,1,1,1,2,2
+P126,CIGARREIRA ROTA DO SOL,Ponta Negra,Av. Praia de Pirangi,1,745.1,1,1,1,1,2,2
+P125,DECKY BAR,Ponta Negra,RN-063,1,745.1,1,1,1,1,2,2
+P124,BAR E PALESI,Ponta Negra,Avenida Engenheiro Roberto Freire,1,745.1,1,1,1,1,2,2
+P123,FEIRA DE ARTESANATO,Ponta Negra,Av. Eng. Roberto Freire,1,745.1,1,1,1,1,2,2
+P122,PRAIA SHOPPING,Capim Macio,Avenida Engenheiro Roberto Freire,1,745.1,1,1,1,1,2,2
+P153,UFRN - CIT,Lagoa Nova,Av. Contorno do Campos,1,745.2,1,1,1,1,2,2
+P154,UFRN - CENTRO DE BIOCIENCIA,Lagoa Nova,Av. Passeio dos Girassóis,1,745.2,1,1,1,1,2,2
+P151,BRADESCO,Capim Macio,R. Leôncio Etelvino de Medeiros,1,745.2,1,1,1,1,2,2
+P150,DROGARIA GLOBO,Parque das Dunas,Av. Eng. Roberto Freire,1,745.2,1,1,1,1,2,2
+P149,MAURICIO DE NASSAU,Parque das Dunas,Av. Eng. Roberto Freire,1,745.2,1,1,1,1,2,2
+P152,UFRN - LABORATORIO DE AUTOMACAO,Lagoa Nova,Av. Contorno do Campos,1,745.2,1,1,1,1,2,2
+P139,MARITIMOS BAR,Ponta Negra,Av. Praia de Pirangi,1,745.2,1,1,1,1,2,2
+P147,UNP,Capim Macio,Av. Eng. Roberto Freire,1,745.2,1,1,1,1,2,2
+P140,CHIC PIZZA,Ponta Negra,Av. Praia de Pirangi,1,745.2,1,1,1,1,2,2
+P141,ROTA DO SOL,Ponta Negra,Av. Praia de Pirangi,1,745.2,1,1,1,1,2,2
+P142,DECKY,Ponta Negra,Av. Eng. Roberto Freire,1,745.2,1,1,1,1,2,2
+P143,BARI PALESI,Ponta Negra,Av. Eng. Roberto Freire,1,745.2,1,1,1,1,2,2
+P144,CAMAROES,Ponta Negra,Av. Eng. Roberto Freire,1,745.2,1,1,1,1,2,2
+P145,PRAIA SHOPPING,Capim Macio,Avenida Engenheiro Roberto Freire,1,745.2,1,1,1,1,2,2
+P146,EM FRENTE DUNNAS SHOPPING,Capim Macio,Av. Eng. Roberto Freire,1,745.2,1,1,1,1,2,2
+P185,CDA,Nova Parnamirim,Av Abel Cabral,2,"97,98",1,1,2,2,2,4
+P184,CONDOMINIO COLINAS DAS PALMEIRAS,Nova Parnamirim,Av Abel Cabral,2,"97,98",1,1,2,2,2,4
+P168,PONTUAL MATERIAL DE CONSTRUCAO,Parque dos Eucaliptos,Av. Abel Cabral,1,745.2,1,1,1,1,2,2
+P163,CDA DISTRIBUIDORA,Parque do Pitimbu,Av. Abel Cabral,3,"745.2,97,98",1,1,3,3,2,6
+P158,MERCADINHO SAO FRANCISCO E GINASIO,Capim Macio,Av. Santos Dumont,1,745.2,1,1,1,1,2,2
+P157,UFRN - NUPLAM,Lagoa Nova,Av. Passeio dos Girassóis,1,745.2,1,1,1,1,2,2
+P156,UFRN - ROTATORIA DO NEI,Lagoa Nova,Av. Passeio dos Girassóis,1,745.2,1,1,1,1,2,2
+P159,IGREJA DE MIRASSOL,Capim Macio,Av. Santos Dumont,1,745.2,1,1,1,1,2,2
+P155,UFRN - NUPLAM 2,Lagoa Nova,Av. Passeio dos Girassóis,1,745.2,1,1,1,1,2,2
+P148,EXTRA,Capim Macio,Av. Eng. Roberto Freire,1,745.2,1,1,1,1,2,2
+P181,MINA BELA COSMETICOS,Nova Parnamirim,Av Abel Cabral,2,"97,98",1,1,2,2,2,4
+P179,REVISTARIA AYRTON SENNA,Nova Parnamirim,R Adail Pamplona De Menezes,2,"97,98",1,1,2,2,2,4
+P177,CONDOMINIO JARDIM DO SUL,Nova Parnamirim,R Adail Pamplona De Menezes,1,97,1,1,1,1,2,2
+P173,COLEGIO EXTENSIVO,Parque dos Eucaliptos,Av. Gastão Mariz de Faria,1,745.2,1,1,1,1,2,2
+P171,CONDOMINIO ITAMARATI,Parque dos Eucaliptos,Avenida Ayrton Senna,1,745.2,1,1,1,1,2,2
+P172,ANTES DA ROTATORIA CIDADE VERDE,Parque dos Eucaliptos,Avenida Ayrton Senna,1,745.2,1,1,1,1,2,2
+P194,ATRAS DO CONDOMINIO BERTIOGA,Nova Parnamirim,R Adail Pamplona De Menezes,1,97,1,1,1,1,2,2
+P195,VIA DORO,Nova Parnamirim,R Adail Pamplona De Menezes,1,97,1,1,1,1,2,2
+P183,CONDOMINIO ARCO-IRIS,Nova Parnamirim,Av Abel Cabral,2,"97,98",1,1,2,2,2,4
+P182,PREFEITURA,Nova Parnamirim,Av Abel Cabral,2,"97,98",1,1,2,2,2,4
+P180,IGREJA ASSEMBLEIA DE DEUS ABEL,Nova Parnamirim,Av Abel Cabral,2,"97,98",1,1,2,2,2,4
+P190,PN322,Nova Parnamirim,Av Abel Cabral,1,97,1,1,1,1,2,2
+P192,TROPICAL LANCHES,Nova Parnamirim,Av Abel Cabral,2,"97,98",1,1,2,2,2,4
+P188,BOTECO RESTAURANTE E PIZZARIA,Nova Parnamirim,Av Abel Cabral,2,"97,98",1,1,2,2,2,4
+P199,GERBERA RECEPCOES,Nova Parnamirim,R Algarobas,1,98,1,1,1,1,2,2
+P200,CONDOMINIO GOLDEN VALLEY,Nova Parnamirim,R Adail Pamplona De Menezes,1,98,1,1,1,1,2,2
+P196,RESIDENCIAL GOLDEN VALLEY,Nova Parnamirim,R Adail Pamplona De Menezes,1,97,1,1,1,1,2,2
+P198,MERCADINHO ALGAROBA,Nova Parnamirim,R Da Algaroba,1,98,1,1,1,1,2,2
+P201,PN312,Nova Parnamirim,R Adail Pamplona De Menezes,1,98,1,1,1,1,2,2
+P202,PN313,Nova Parnamirim,R Adail Pamplona De Menezes,1,98,1,1,1,1,2,2
+P133,IGREJA GUERREIROS DA ORACAO,Nova Parnamirim,Rua Angelim,1,745.1,1,0,1,0,1,1
+P134,TERMINAL,Nova Parnamirim,Avenida Gastão Mariz de Faria,1,745.2,0,1,0,1,1,1

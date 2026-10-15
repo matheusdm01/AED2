@@ -1,0 +1,16 @@
+metrica,valor
+nos,202.0
+arestas,227.0
+WCC,1.0
+SCC,79.0
+maior_SCC,124.0
+pares_alcancaveis_pct,66.24
+dist_media_dirigida,25.33
+diametro_dirigido,64.0
+eficiencia_dirigida,0.0448
+dist_media_nao_dirigida,18.6
+diametro_nao_dirigido,51.0
+eficiencia_nao_dirigida,0.0914
+transitividade,0.0656
+pontos_articulacao,47.0
+pontes,46.0

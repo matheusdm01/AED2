@@ -1,0 +1,7 @@
+,grau_total,forca_total,closeness_dir,betweenness_dir,betweenness_nao_dir,eigenvector_nao_dir
+grau_total,1.0,0.44,0.24,0.21,0.25,0.28
+forca_total,0.44,1.0,0.36,0.54,0.28,0.59
+closeness_dir,0.24,0.36,1.0,0.55,0.29,0.59
+betweenness_dir,0.21,0.54,0.55,1.0,0.67,0.57
+betweenness_nao_dir,0.25,0.28,0.29,0.67,1.0,0.49
+eigenvector_nao_dir,0.28,0.59,0.59,0.57,0.49,1.0
