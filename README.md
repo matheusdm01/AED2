@@ -61,6 +61,21 @@ cd projeto_onibus_natal
 
 Todos os comandos abaixo são executados nessa pasta (a que contém `reproduzir.py`, `run_all.sh` e `requirements.txt`). A execução leva cerca de 1 min 30 s a 2 min e passa por 10 etapas, de `[1/10]` a `[10/10]`.
 
+### Google Colab
+
+```bash
+!git clone https://github.com/matheusdm01/AED2.git
+%cd AED2/projeto_onibus_natal
+!python --version
+```
+```bash
+!pip install -q -r requirements.txt
+```
+
+```bash
+!python reproduzir.py
+```
+
 ### Linux e Mac: um comando
 
 ```bash
