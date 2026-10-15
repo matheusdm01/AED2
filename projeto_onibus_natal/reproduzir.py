@@ -17,6 +17,7 @@ ETAPAS = [
     ("parte 4: remoção de paradas, trechos e grupos",  ["src/07_parte4_remocao.py"]),
     ("parte 5: núcleos (k-core, onion, k-truss)",      ["src/08_parte5_nucleos.py"]),
     ("parte 6: modelagens alternativas e bipartida",   ["src/09_parte6_alternativas.py"]),
+    ("parte 7: Figuras finais e checagem de sensibilidade do limiar do tronco",   ["src/10_parte7_figuras.py"]),
 ]
 env = dict(os.environ, MPLBACKEND="Agg", PYTHONHASHSEED="0")
 with open("data/analise/log_execucao.txt", "w", encoding="utf-8") as log:
