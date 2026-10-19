@@ -1,16 +1,16 @@
 # Pontos críticos da rede de ônibus de Nova Parnamirim–Natal
 
-## Integrantes
+## 👥 Integrantes
 
-Matheus Dantas Melo
+- César Augusto Miranda Azevedo
+- Matheus Dantas Melo
+- Larissa Soares de Souza
 
-Larissa Soares de Souza
 
-César Augusto Miranda Azevedo
 
 ## 🎥 Vídeo
 
-PREENCHER: https://youtu.be/... (até 15 min no total; não listado, nunca privado)
+
 
 ## Problema e pergunta
 
