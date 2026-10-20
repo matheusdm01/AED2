@@ -10,7 +10,7 @@
 
 ## 🎥 Vídeo
 
-
+- https://youtu.be/6EJPSDG3oEs
 
 ## Problema e pergunta
 
