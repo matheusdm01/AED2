@@ -22,6 +22,7 @@ Quais paradas e trechos da rede das seis linhas que partem do Terminal de Nova P
 - **Como obter:** os PDFs já estão no repositório; `src/01_extrair.py` lê as tabelas e grava `data/paradas_raw.csv` (448 registros).
 - **Limpeza:** padronização de nomes, identificação de paradas por nome + endereço, equivalências manuais de endereço, auditoria em `data/auditoria_nomes.csv`. Detalhes em [MODELAGEM.md](projeto_onibus_natal/MODELAGEM.md).
 
+
 ## Modelagem
 
 - **Nó:** uma parada, identificada por nome limpo + endereço normalizado (202 nós).
