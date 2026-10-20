@@ -63,6 +63,8 @@ Todos os comandos abaixo são executados nessa pasta (a que contém `reproduzir.
 
 ### Google Colab
 
+Obs.: Pode ser utilizado o seguinte link que já tem os códigos das etapas abaixo e a prova de que o projeto é reprodutível - https://colab.research.google.com/drive/1U-HXtfMiU7cBJcVfyo8jIVfkJBix9XhO?usp=sharing#scrollTo=IJ3ptVewLg1z
+
 ```bash
 !git clone https://github.com/matheusdm01/AED2.git
 %cd AED2/projeto_onibus_natal
